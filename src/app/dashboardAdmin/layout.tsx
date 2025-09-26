@@ -4,7 +4,7 @@
 import { TopMenu } from "@/components/TopMenu/TopMenu";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import React, { useState, useEffect } from "react";
+import React, {  useEffect } from "react";
 
 export default function DashboardUserLayout({
   children,

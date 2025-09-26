@@ -12,7 +12,7 @@ import ListItemText from "@mui/material/ListItemText";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import LoginRoundedIcon from "@mui/icons-material/LoginRounded";
-import PeopleIcon from "@mui/icons-material/People";
+
 import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
 import ReportIcon from "@mui/icons-material/Report";
 import { useSession, signIn, signOut } from "next-auth/react";

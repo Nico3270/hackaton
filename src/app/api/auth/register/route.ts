@@ -4,33 +4,78 @@ import bcryptjs from "bcryptjs";
 
 export async function POST(request: Request) {
   try {
-    const { name, email, password } = await request.json();
+    const body = await request.json();
 
-    if (!name || !email || !password) {
+    // Aceptar diferentes nombres de la contraseña en el body por compatibilidad
+    const rawPassword = body.contraseña ?? body.contrasena ?? body.password;
+
+    const {
+      nombre,
+      email,
+      apellido,
+      departamento,
+      ciudad,
+      fechaNacimiento, // esperar formato ISO 'YYYY-MM-DD' o similar
+    } = body;
+
+    // Validación básica
+    if (
+      !nombre ||
+      !email ||
+      !rawPassword ||
+      !apellido ||
+      !departamento ||
+      !ciudad ||
+      !fechaNacimiento
+    ) {
       return NextResponse.json(
-        { message: "Todos los campos son obligatorios" },
+        {
+          message:
+            "Todos los campos son obligatorios: nombre, apellido, email, contraseña, departamento, ciudad, fechaNacimiento",
+        },
         { status: 400 }
       );
     }
 
-    const existingUser = await prisma.user.findUnique({ where: { email } });
+    // Validar fecha
+    const fecha = new Date(fechaNacimiento);
+    if (isNaN(fecha.getTime())) {
+      return NextResponse.json({ message: "fechaNacimiento inválida" }, { status: 400 });
+    }
+
+    // Verificar usuario existente
+    const existingUser = await prisma.usuario.findUnique({ where: { email } });
     if (existingUser) {
-      return NextResponse.json(
-        { message: "El correo ya está registrado" },
-        { status: 400 }
-      );
+      return NextResponse.json({ message: "El correo ya está registrado" }, { status: 400 });
     }
 
-    const hashedPassword = bcryptjs.hashSync(password, 10);
+    // Hashear contraseña (async)
+    const hashedPassword = await bcryptjs.hash(rawPassword, 10);
 
-    const newUser = await prisma.user.create({
-      data: { name, email, password: hashedPassword, role: "user" },
+    // Crear usuario (no incluimos role para que se use el default desde el schema)
+    const newUser = await prisma.usuario.create({
+      data: {
+        nombre,
+        apellido,
+        email,
+        contraseña: hashedPassword,
+        departamento,
+        ciudad,
+        fechaNacimiento: fecha,
+      },
+      // No incluir la contraseña en la respuesta
+      select: {
+        id: true,
+        nombre: true,
+        apellido: true,
+        email: true,
+        departamento: true,
+        ciudad: true,
+        fechaNacimiento: true,
+      },
     });
 
-    return NextResponse.json(
-      { message: "Usuario creado exitosamente", user: newUser },
-      { status: 201 }
-    );
+    return NextResponse.json({ message: "Usuario creado exitosamente", user: newUser }, { status: 201 });
   } catch (error) {
     console.error("Error al registrar usuario:", error);
     return NextResponse.json(

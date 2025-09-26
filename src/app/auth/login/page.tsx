@@ -3,7 +3,7 @@
 
 import { LoginForm } from "@/auth/componentes/LoginForm";
 import Image from "next/image";
-import { InfoEmpresa as empresa } from "@/config/config";
+
 
 export default function LoginPage() {
   return (

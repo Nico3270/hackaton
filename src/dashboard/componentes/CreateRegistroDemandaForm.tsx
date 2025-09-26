@@ -18,17 +18,31 @@ import Modal from "@mui/material/Modal";
 import Typography from "@mui/material/Typography";
 import { createRegistroDemanda } from "../actions/registroDemanda";
 
+// Definimos el tipo para factorEstacional
+type FactorEstacional =
+  | "Normal"
+  | "Lluvias"
+  | "Sequia"
+  | "Epidemia"
+  | "Festividades"
+  | "InviernoFrio"
+  | "CalorExtremo"
+  | "EventosAgricolas"
+  | "EmergenciasNaturales";
+
+// Interfaz para los datos del formulario
 interface FormData {
+  servicioId: string;
   fecha: string;
   atenciones: number;
   demandaEstimada?: number;
-  factorEstacional: string;
+  factorEstacional: FactorEstacional;
   tiposDemanda: string[];
   notas?: string;
 }
 
 const modalStyle = {
-  position: "absolute" as "absolute",
+  position: "absolute",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
@@ -39,11 +53,13 @@ const modalStyle = {
   boxShadow: 24,
   p: 4,
   textAlign: "center",
-};
+} as const;
+
 
 export default function CreateRegistroDemandaForm({ servicioId }: { servicioId: string }) {
   const { register, handleSubmit, setValue, watch } = useForm<FormData>({
     defaultValues: {
+      servicioId,
       tiposDemanda: [],
       factorEstacional: "Normal",
       fecha: new Date().toISOString().split("T")[0], // Default to today's date
@@ -69,9 +85,13 @@ export default function CreateRegistroDemandaForm({ servicioId }: { servicioId: 
     const formattedDate = localDate.toISOString().split("T")[0];
 
     const result = await createRegistroDemanda({
-      ...data,
       servicioId,
       fecha: formattedDate,
+      atenciones: data.atenciones,
+      demandaEstimada: data.demandaEstimada,
+      factorEstacional: data.factorEstacional,
+      tiposDemanda: data.tiposDemanda,
+      notas: data.notas,
     });
 
     setIsLoading(false);
@@ -157,7 +177,7 @@ export default function CreateRegistroDemandaForm({ servicioId }: { servicioId: 
               label="Factor estacional"
               variant="outlined"
               value={factorEstacional}
-              onChange={(e) => setValue("factorEstacional", e.target.value as string)}
+              onChange={(e) => setValue("factorEstacional", e.target.value as FactorEstacional)}
               sx={{ borderRadius: 2 }}
             >
               {[

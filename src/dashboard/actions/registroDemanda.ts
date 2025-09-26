@@ -4,9 +4,10 @@ import { auth } from "@/auth.config";
 import prisma from "@/lib/prisma";
 import { z } from "zod";
 
+// Definimos el esquema de validación
 const schema = z.object({
   servicioId: z.string().uuid(),
-  fecha: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Fecha debe ser en formato YYYY-MM-DD"), // Validate date string
+  fecha: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Fecha debe ser en formato YYYY-MM-DD"),
   atenciones: z.number().int().min(0),
   demandaEstimada: z.number().optional(),
   factorEstacional: z.enum([
@@ -24,7 +25,11 @@ const schema = z.object({
   notas: z.string().optional(),
 });
 
-export const createRegistroDemanda = async (data: any) => {
+// Tipo derivado del esquema para los datos de entrada
+type RegistroDemandaInput = z.infer<typeof schema>;
+
+// Función para crear un registro de demanda
+export const createRegistroDemanda = async (data: RegistroDemandaInput) => {
   try {
     const session = await auth();
     if (!session || session.user.role !== "ServicioSalud") {
@@ -33,7 +38,7 @@ export const createRegistroDemanda = async (data: any) => {
 
     const validated = schema.parse(data);
 
-    // Convert date string (YYYY-MM-DD) to DateTime (start of day in UTC)
+    // Convertir fecha string (YYYY-MM-DD) a DateTime (inicio del día en UTC)
     const fechaDate = new Date(`${validated.fecha}T00:00:00.000Z`);
 
     await prisma.registroDemanda.create({
@@ -49,10 +54,11 @@ export const createRegistroDemanda = async (data: any) => {
     });
 
     return { ok: true, message: "Registro creado exitosamente" };
-  } catch (error: any) {
-    if (error.code === "P2002") {
+  } catch (error: unknown) {
+    // Manejo de error específico para Prisma (P2002: violación de unicidad)
+    if (error instanceof Error && "code" in error && error.code === "P2002") {
       return { ok: false, message: "Ya existe un registro para este servicio y fecha" };
     }
-    return { ok: false, message: "Error al crear el registro: " + error.message };
+    return { ok: false, message: `Error al crear el registro: ${(error instanceof Error ? error.message : "Error desconocido")}` };
   }
 };

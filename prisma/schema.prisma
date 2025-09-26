@@ -128,7 +128,6 @@ model ServicioSalud {
   @@index([departamento, ciudad])
   @@index([tipo])
   @@index([disponibilidad])
-  @@index([fechaInicio, fechaFin])
   @@index([nit])
   @@index([codigoPrestador])
 }

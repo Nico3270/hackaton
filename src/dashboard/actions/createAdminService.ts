@@ -46,7 +46,7 @@ const schema = z.object({
   }
 });
 
-type CreateServiceInput = z.infer<typeof schema>;
+
 
 export async function createAdminService(data: unknown) {
   const session = await auth();
