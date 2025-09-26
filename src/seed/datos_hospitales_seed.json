@@ -1,0 +1,6448 @@
+[
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Almeida",
+    "codigoprestador": 1502201084,
+    "nombre": "CENTRO DE SALUD DE ALMEIDA",
+    "nit": 900004894,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Otorrinolaringología",
+      "Oncología",
+      "Anestesiología",
+      "Gastroenterología",
+      "Cirugía General",
+      "Medicina Nuclear"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Geriatría",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Laboratorio Clínico",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Chequeos Preventivos",
+      "Vacunación",
+      "Control Prenatal",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Aquitania",
+    "codigoprestador": 1504700599,
+    "nombre": "ESE SALUD AQUITANIA",
+    "nit": 891855492,
+    "direccion": "CL 8 N 7 60",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Ginecología y Obstetricia",
+      "Oncología",
+      "Medicina General",
+      "Dermatología",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Laboratorio Clínico",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Chequeos Preventivos",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Arcabuco",
+    "codigoprestador": 1505100982,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE ARCABUCO",
+    "nit": 820003382,
+    "direccion": "KILOMETRO 1 VIA MONIQUIRA",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Oncología",
+      "Medicina Interna",
+      "Otorrinolaringología",
+      "Medicina Nuclear",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Rehabilitación Cardíaca",
+      "Medicina Paliativa"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Brigadas de Desinfección",
+      "Planificación Familiar",
+      "Educación en Salud",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Belén",
+    "codigoprestador": 1508700498,
+    "nombre": "ESE CENTRO DE SALUD \"NUESTRA SEÑORA DE BELEN\"",
+    "nit": 826002660,
+    "direccion": "KR 6 No 4-19",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Oncología",
+      "Anestesiología",
+      "Reumatología",
+      "Dermatología",
+      "Medicina Nuclear",
+      "Medicina Física y Rehabilitación"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Litotricia",
+      "Terapia Respiratoria",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Tomografía Computarizada (TC)",
+      "Densitometría Ósea",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Educación en Salud",
+      "Consultas Generales",
+      "Chequeos Preventivos",
+      "Brigadas de Desinfección",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Berbeo",
+    "codigoprestador": 1509000430,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO ESE CENTRO DE SALUD JUAN FRANCISCO BERBEO",
+    "nit": 820003929,
+    "direccion": "Cll 2 Nº 5-0",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Pediatría",
+      "Dermatología",
+      "Endocrinología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Chequeos Preventivos",
+      "Vacunación",
+      "Planificación Familiar",
+      "Atención Dental",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Betéitiva",
+    "codigoprestador": 1509200215,
+    "nombre": "CENTRO DE SALUD BETEITIVA",
+    "nit": 826002862,
+    "direccion": "PARQUE PRINCIPAL",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Infectología",
+      "Nefrología",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Vacunación",
+      "Medición de Signos Vitales",
+      "Atención Dental",
+      "Consultas Generales",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Boavita",
+    "codigoprestador": 1509700332,
+    "nombre": "CENTRO DE SALUD DE BOAVITA",
+    "nit": 891800611,
+    "direccion": "CARRERA 7 # 1-50",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina del Trabajo",
+      "Medicina Nuclear",
+      "Oncología",
+      "Neurología",
+      "Pediatría",
+      "Otorrinolaringología",
+      "Gastroenterología"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Diálisis",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Ecografía",
+      "Rayos X",
+      "Pruebas de Esfuerzo",
+      "Mamografía",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Planificación Familiar",
+      "Desparasitación",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Boyacá",
+    "codigoprestador": 1510400698,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SAN JOSE",
+    "nit": 820003622,
+    "direccion": "CARRERA 3 # 6-101",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Hematología",
+      "Anestesiología",
+      "Medicina General",
+      "Medicina Nuclear",
+      "Pediatría",
+      "Nefrología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Litotricia",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Mamografía",
+      "Resonancia Magnética (RM)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Brigadas de Desinfección",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Briceño",
+    "codigoprestador": 1510600640,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD BRICEÑO",
+    "nit": 820003787,
+    "direccion": "CR 4 Nº 3-22",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Dermatología",
+      "Medicina Familiar y Comunitaria",
+      "Ortopedia y Traumatología",
+      "Ginecología y Obstetricia",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Electrocardiograma (ECG)",
+      "Tomografía Computarizada (TC)",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Atención Dental",
+      "Planificación Familiar",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Buenavista",
+    "codigoprestador": 1510900686,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD BUENAVISTA",
+    "nit": 820003550,
+    "direccion": "KR. 3 No. 3-53",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Neurología",
+      "Urología",
+      "Anestesiología",
+      "Ortopedia y Traumatología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Endoscopía",
+      "Quimioterapia",
+      "Trasplantes",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Electroencefalograma (EEG)",
+      "Mamografía",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Brigadas de Desinfección",
+      "Tamizaje de Enfermedades Crónicas",
+      "Vacunación",
+      "Atención Dental",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Busbanzá",
+    "codigoprestador": 1511400798,
+    "nombre": "UNIDAD BASICA DE ATENCION DEL MUNICIPIO DE BUSBANZA",
+    "nit": 891855039,
+    "direccion": "CALLE 4 No 4-39",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Pediatría",
+      "Medicina General",
+      "Ginecología y Obstetricia",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Medicina Paliativa",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Ecografía",
+      "Tomografía Computarizada (TC)",
+      "Espirometría",
+      "Resonancia Magnética (RM)",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Educación en Salud",
+      "Chequeos Preventivos",
+      "Tamizaje de Enfermedades Crónicas",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Caldas",
+    "codigoprestador": 1513100683,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD LAS MERCEDES CALDAS",
+    "nit": 820003456,
+    "direccion": "CALLE 4 No 1-39",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Nefrología",
+      "Infectología",
+      "Hematología",
+      "Reumatología",
+      "Radiología",
+      "Ginecología y Obstetricia",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Cirugía Mayor",
+      "Endoscopía",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Vacunación",
+      "Atención Dental",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Campohermoso",
+    "codigoprestador": 1513500344,
+    "nombre": "E.S.E CENTRO DE SALUD CAMPOHERMOSO",
+    "nit": 820003910,
+    "direccion": "CL 2 3-15",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Radiología",
+      "Medicina Nuclear",
+      "Medicina Física y Rehabilitación",
+      "Endocrinología",
+      "Otorrinolaringología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Geriatría",
+      "Rehabilitación Cardíaca",
+      "Medicina Paliativa"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Electroencefalograma (EEG)",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Desparasitación",
+      "Vacunación",
+      "Consultas Generales",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Cerinza",
+    "codigoprestador": 1516200710,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD CERINZA",
+    "nit": 826002641,
+    "direccion": "Calle 7 No. 7 - 23",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Hematología",
+      "Otorrinolaringología",
+      "Pediatría",
+      "Medicina Nuclear",
+      "Gastroenterología"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Medicina Paliativa",
+      "Trasplantes",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Mamografía",
+      "Rayos X",
+      "Pruebas de Esfuerzo",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Desparasitación",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Chiquinquirá",
+    "codigoprestador": 1517600955,
+    "nombre": "SEDE CENTRO",
+    "nit": 820005389,
+    "direccion": "KRA 13 # 18 - 60",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina del Trabajo",
+      "Reumatología",
+      "Psiquiatría",
+      "Medicina Interna"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Medicina Paliativa",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Consultas Generales",
+      "Educación en Salud",
+      "Medición de Signos Vitales",
+      "Control Prenatal",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Chíquiza",
+    "codigoprestador": 1523200705,
+    "nombre": "e.s.e centro de salud san pedro de iguaque",
+    "nit": 820003365,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Dermatología",
+      "Psiquiatría",
+      "Ginecología y Obstetricia"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Educación en Salud",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Chiscas",
+    "codigoprestador": 1518000844,
+    "nombre": "CENTRO DE SALUD DE CHISCAS",
+    "nit": 891855719,
+    "direccion": "CHISCAS CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Nefrología",
+      "Medicina del Trabajo",
+      "Cardiología",
+      "Urología",
+      "Endocrinología",
+      "Anestesiología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Endoscopía",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Tomografía Computarizada (TC)",
+      "Ecografía",
+      "Densitometría Ósea",
+      "Electrocardiograma (ECG)"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Chequeos Preventivos",
+      "Vacunación",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Chitaraque",
+    "codigoprestador": 1518500633,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE CHITARAQUE",
+    "nit": 820003580,
+    "direccion": "CR 5 3-15",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Dermatología",
+      "Nefrología",
+      "Infectología",
+      "Pediatría",
+      "Oftalmología",
+      "Anestesiología",
+      "Medicina General"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Trasplantes",
+      "Medicina Paliativa",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Ecografía",
+      "Electroencefalograma (EEG)",
+      "Resonancia Magnética (RM)",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Medición de Signos Vitales",
+      "Control Prenatal",
+      "Planificación Familiar",
+      "Vacunación",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Chivatá",
+    "codigoprestador": 1518700716,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD NUESTRA SEÑORA DEL ROSARIO DE CHIVATA",
+    "nit": 820003558,
+    "direccion": "carrera 3 N 2 78",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Urología",
+      "Oftalmología",
+      "Ortopedia y Traumatología",
+      "Reumatología",
+      "Ginecología y Obstetricia",
+      "Gastroenterología",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Endoscopía",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Endoscopía",
+      "Ecografía",
+      "Densitometría Ósea",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Vacunación",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Ciénega",
+    "codigoprestador": 1518900596,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO PUESTO DE SALUD DE CIENEGA",
+    "nit": 820002468,
+    "direccion": "KR 7 No 3-56",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina General",
+      "Medicina Nuclear",
+      "Otorrinolaringología",
+      "Gastroenterología",
+      "Dermatología",
+      "Psiquiatría",
+      "Ortopedia y Traumatología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Electroencefalograma (EEG)",
+      "Electrocardiograma (ECG)",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Chequeos Preventivos",
+      "Vacunación",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Cómbita",
+    "codigoprestador": 1520400600,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE COMBITA",
+    "nit": 820003411,
+    "direccion": "KR 5 1 80",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Infectología",
+      "Medicina Nuclear",
+      "Nefrología"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Electrocardiograma (ECG)",
+      "Mamografía",
+      "Tomografía Computarizada (TC)",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Vacunación",
+      "Tamizaje de Enfermedades Crónicas",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Coper",
+    "codigoprestador": 1521200806,
+    "nombre": "E.S.E. CENTRO DE SALUD LUIS LANCHEROS",
+    "nit": 820003571,
+    "direccion": "CRA 2 # 4-91",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina General",
+      "Medicina Nuclear",
+      "Cardiología",
+      "Psiquiatría",
+      "Dermatología",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Tomografía Computarizada (TC)",
+      "Mamografía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Chequeos Preventivos",
+      "Desparasitación",
+      "Control Prenatal",
+      "Atención Dental",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Corrales",
+    "codigoprestador": 1521500682,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO PUESTO DE SALUD CORRALES",
+    "nit": 826002693,
+    "direccion": "CALLE 9 N° 3-31",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Infectología",
+      "Radiología",
+      "Dermatología",
+      "Endocrinología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Trasplantes",
+      "Medicina Paliativa",
+      "Litotricia",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Laboratorio Clínico",
+      "Densitometría Ósea",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Control Prenatal",
+      "Desparasitación",
+      "Educación en Salud",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Cubará",
+    "codigoprestador": 1522300713,
+    "nombre": "HOSPITAL ESPECIAL DE CUBARA EMPRESA SOCIAL DEL ESTADO",
+    "nit": 826002304,
+    "direccion": "CL 3 # 5 - 47",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Otorrinolaringología",
+      "Nefrología",
+      "Ginecología y Obstetricia",
+      "Medicina Física y Rehabilitación"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Brigadas de Desinfección",
+      "Consultas Generales",
+      "Educación en Salud",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Cucaita",
+    "codigoprestador": 1522400390,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SANTA LUCIA",
+    "nit": 820003388,
+    "direccion": "CALLE 9 Numero 7-38",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina General",
+      "Anestesiología",
+      "Gastroenterología",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Rehabilitación Cardíaca",
+      "Cirugía Mayor",
+      "Terapia Respiratoria",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Electrocardiograma (ECG)",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Consultas Generales",
+      "Desparasitación",
+      "Vacunación",
+      "Tamizaje de Enfermedades Crónicas",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Cuítiva",
+    "codigoprestador": 1522600733,
+    "nombre": "ESE LAGOSALUD CUITIVA",
+    "nit": 826002609,
+    "direccion": "CALLE 4 CARRERA 4 ESQUINA",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Otorrinolaringología",
+      "Infectología",
+      "Oncología"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Laboratorio Clínico",
+      "Espirometría",
+      "Pruebas de Esfuerzo",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Brigadas de Desinfección",
+      "Educación en Salud",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Duitama",
+    "codigoprestador": 1523800664,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL REGIONAL DE DUITAMA",
+    "nit": 891855438,
+    "direccion": "AV AMERICAS KR 35",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oncología",
+      "Medicina General",
+      "Medicina Física y Rehabilitación"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Quimioterapia",
+      "Litotricia",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Resonancia Magnética (RM)",
+      "Pruebas de Esfuerzo",
+      "Ecografía",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Educación en Salud",
+      "Brigadas de Desinfección",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Duitama",
+    "codigoprestador": 1523800685,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO SALUD DEL TUNDAMA",
+    "nit": 826002601,
+    "direccion": "Calle 28 # 15 -120",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Psiquiatría",
+      "Urología",
+      "Ortopedia y Traumatología",
+      "Medicina Física y Rehabilitación"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Endoscopía",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Pruebas de Esfuerzo",
+      "Electroencefalograma (EEG)",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Control Prenatal",
+      "Desparasitación",
+      "Chequeos Preventivos",
+      "Planificación Familiar",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Duitama",
+    "codigoprestador": 1523802313,
+    "nombre": "JUNTA DE DEFENSA CIVILL DUITAMA",
+    "nit": 800043036,
+    "direccion": "CARRERA 9 CALLE 16 ESQUINA",
+    "nivelcomplejidad": 1,
+    "caracter": "Nacional",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Nefrología",
+      "Endocrinología",
+      "Medicina Familiar y Comunitaria",
+      "Reumatología",
+      "Medicina del Trabajo",
+      "Anestesiología"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Ecografía",
+      "Electroencefalograma (EEG)",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Control Prenatal",
+      "Medición de Signos Vitales",
+      "Planificación Familiar",
+      "Consultas Generales",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Firavitoba",
+    "codigoprestador": 1527200385,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD FIRAVITOBA",
+    "nit": 826002676,
+    "direccion": "CALLE 9 Nº 3-54",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Neurología",
+      "Gastroenterología",
+      "Oncología",
+      "Oftalmología",
+      "Medicina General"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Endoscopía",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Consultas Generales",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Floresta",
+    "codigoprestador": 1527600741,
+    "nombre": "ESE CENTRO DE SALUD FLORESTA",
+    "nit": 826002164,
+    "direccion": "Calle 4 No. 5-37",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Infectología",
+      "Medicina del Trabajo",
+      "Ortopedia y Traumatología",
+      "Pediatría",
+      "Nefrología",
+      "Neurología",
+      "Otorrinolaringología"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Trasplantes",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Rayos X",
+      "Endoscopía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Medición de Signos Vitales",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Gachantivá",
+    "codigoprestador": 1529300501,
+    "nombre": "ESE CENTRO DE SALUD SAN ANTONIO DE PADUA",
+    "nit": 820003638,
+    "direccion": "CARRERA 5 N 5-44",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Psiquiatría",
+      "Medicina Nuclear",
+      "Ginecología y Obstetricia",
+      "Urología",
+      "Cardiología"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Endoscopía",
+      "Radioterapia",
+      "Medicina Paliativa",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Electrocardiograma (ECG)",
+      "Espirometría",
+      "Endoscopía",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Chequeos Preventivos",
+      "Medición de Signos Vitales",
+      "Brigadas de Desinfección",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Gameza",
+    "codigoprestador": 1529600199,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO GAMEZA MUNICIPIO SALUDABLE",
+    "nit": 826001960,
+    "direccion": "CALLE 3 No. 5-17",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Hematología",
+      "Psiquiatría",
+      "Neurología",
+      "Pediatría",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Terapia Respiratoria",
+      "Litotricia",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Mamografía",
+      "Tomografía Computarizada (TC)",
+      "Ecografía",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Consultas Generales",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Guacamayas",
+    "codigoprestador": 1531700584,
+    "nombre": "PUESTO DE SALUD DE GUACAMAYAS",
+    "nit": 891855439,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Infectología",
+      "Pediatría",
+      "Otorrinolaringología",
+      "Oftalmología",
+      "Endocrinología",
+      "Anestesiología",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Endoscopía",
+      "Quimioterapia",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Ecografía",
+      "Electrocardiograma (ECG)",
+      "Densitometría Ósea",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Vacunación",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Iza",
+    "codigoprestador": 1536200370,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD LUIS PATIÑO CAMARGO",
+    "nit": 826002720,
+    "direccion": "CLL. 3 Nº4-124",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Anestesiología",
+      "Nefrología",
+      "Dermatología",
+      "Radiología",
+      "Neurología",
+      "Hematología",
+      "Endocrinología"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Litotricia",
+      "Geriatría",
+      "Rehabilitación Cardíaca",
+      "Neonatología"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Tomografía Computarizada (TC)",
+      "Espirometría",
+      "Pruebas de Esfuerzo",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Consultas Generales",
+      "Atención Dental",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Jenesano",
+    "codigoprestador": 1536700064,
+    "nombre": "Empresa Social del Estado Centro de Salud Jenesano",
+    "nit": 820003337,
+    "direccion": "AV Los Libertadores CR 2 No 5-11",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Medicina Física y Rehabilitación",
+      "Cirugía General",
+      "Infectología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Electrocardiograma (ECG)",
+      "Densitometría Ósea",
+      "Rayos X",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Tamizaje de Enfermedades Crónicas",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Jericó",
+    "codigoprestador": 1536800597,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD NUESTRA SEÑORA DE LA NATIVIDAD",
+    "nit": 826001918,
+    "direccion": "CARRERA 4 No. 2-17",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Endocrinología",
+      "Ortopedia y Traumatología",
+      "Cardiología",
+      "Reumatología"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Densitometría Ósea",
+      "Ecografía",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Vacunación",
+      "Medición de Signos Vitales",
+      "Brigadas de Desinfección",
+      "Atención Dental",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Labranzagrande",
+    "codigoprestador": 1537700539,
+    "nombre": "E.S.E. CENTRO DE SALUD MUNICIPIO DE LABRANZAGRANDE",
+    "nit": 826002687,
+    "direccion": "SR CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Cardiología",
+      "Medicina General",
+      "Radiología",
+      "Gastroenterología",
+      "Otorrinolaringología"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Vacunación",
+      "Medición de Signos Vitales",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "La Capilla",
+    "codigoprestador": 1538000701,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD LA CANDELARIA DE LA CAPILLA",
+    "nit": 820003193,
+    "direccion": "CALLE 4 No 1 - 68",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina del Trabajo",
+      "Medicina General",
+      "Cirugía General",
+      "Medicina Interna",
+      "Otorrinolaringología"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Rehabilitación Cardíaca",
+      "Neonatología",
+      "Medicina Paliativa",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Espirometría",
+      "Ecografía",
+      "Laboratorio Clínico",
+      "Electrocardiograma (ECG)"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Consultas Generales",
+      "Brigadas de Desinfección",
+      "Control Prenatal",
+      "Planificación Familiar",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "La Uvita",
+    "codigoprestador": 1540301014,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE LA UVITA",
+    "nit": 826002202,
+    "direccion": "CALLE 7 # 7-18",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Oncología",
+      "Cirugía General",
+      "Psiquiatría",
+      "Gastroenterología",
+      "Medicina Nuclear",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Ecografía",
+      "Electroencefalograma (EEG)",
+      "Endoscopía",
+      "Electrocardiograma (ECG)"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Chequeos Preventivos",
+      "Medición de Signos Vitales",
+      "Atención Dental",
+      "Brigadas de Desinfección",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Macanal",
+    "codigoprestador": 1542500343,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD MACANAL",
+    "nit": 820000857,
+    "direccion": "CALLE 4 No. 7 - 24",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Gastroenterología",
+      "Neurología",
+      "Medicina del Trabajo",
+      "Medicina Familiar y Comunitaria",
+      "Medicina Nuclear",
+      "Oncología"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Medicina Paliativa",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Laboratorio Clínico",
+      "Endoscopía",
+      "Electrocardiograma (ECG)"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Control Prenatal",
+      "Planificación Familiar",
+      "Atención Dental",
+      "Chequeos Preventivos",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Maripí",
+    "codigoprestador": 1544200356,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO RAFAEL SALGADO DE MARIPI",
+    "nit": 820003291,
+    "direccion": "CALLE 3 3-20",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Cirugía General",
+      "Oncología",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Neonatología",
+      "Radioterapia",
+      "Terapia Respiratoria",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Electrocardiograma (ECG)"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Desparasitación",
+      "Atención Dental",
+      "Control Prenatal",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Miraflores",
+    "codigoprestador": 1545500726,
+    "nombre": "HOSPITAL REGIONAL DE MIRAFLORES E.S.E.",
+    "nit": 800152970,
+    "direccion": "CALLE 4 No. 5-45",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Interna",
+      "Medicina Física y Rehabilitación",
+      "Oftalmología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Rehabilitación Cardíaca",
+      "Litotricia",
+      "Diálisis",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Espirometría",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Medición de Signos Vitales",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Mongua",
+    "codigoprestador": 1546400575,
+    "nombre": "E.S.E CENTRO DE SALUD SAN JERONIMO DE MONGUA",
+    "nit": 826002930,
+    "direccion": "Cra 4 No. 4 - 33",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Dermatología",
+      "Hematología",
+      "Oftalmología",
+      "Ginecología y Obstetricia",
+      "Reumatología",
+      "Infectología",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Terapia Respiratoria",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Educación en Salud",
+      "Brigadas de Desinfección",
+      "Desparasitación",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Monguí",
+    "codigoprestador": 1546600764,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPIATAL LAS MERCEDES DE MONGUI",
+    "nit": 826002777,
+    "direccion": "KRA 5 7-00",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Cardiología",
+      "Medicina Nuclear",
+      "Medicina Física y Rehabilitación",
+      "Anestesiología",
+      "Reumatología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Chequeos Preventivos",
+      "Brigadas de Desinfección",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Moniquirá",
+    "codigoprestador": 1546900823,
+    "nombre": "HOSPITAL REGIONAL DE MONIQUIRA ESE",
+    "nit": 891800395,
+    "direccion": "Calle 4 A No. 9-101",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Otorrinolaringología",
+      "Oftalmología",
+      "Gastroenterología"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Control Prenatal",
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Motavita",
+    "codigoprestador": 1547600373,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE MOTAVITA",
+    "nit": 820003404,
+    "direccion": "cra 2 No. 1-87",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Cirugía General",
+      "Oftalmología",
+      "Neurología",
+      "Radiología",
+      "Ginecología y Obstetricia"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Geriatría",
+      "Medicina Paliativa",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Mamografía",
+      "Densitometría Ósea",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Tamizaje de Enfermedades Crónicas",
+      "Consultas Generales",
+      "Control Prenatal",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Muzo",
+    "codigoprestador": 1548000506,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SANTA ANA",
+    "nit": 800254850,
+    "direccion": "KR 6 7-80",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Infectología",
+      "Cardiología",
+      "Pediatría",
+      "Radiología",
+      "Ginecología y Obstetricia",
+      "Hematología",
+      "Oftalmología"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Cirugía Mayor",
+      "Endoscopía",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Tomografía Computarizada (TC)",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Consultas Generales",
+      "Planificación Familiar",
+      "Vacunación",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Nobsa",
+    "codigoprestador": 1549100708,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO UNIDAD DE SALUD \"SALUD NOBSA\"",
+    "nit": 826002019,
+    "direccion": "Carrera 3 # 10 - 135",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oftalmología",
+      "Cirugía General",
+      "Medicina Nuclear",
+      "Medicina del Trabajo",
+      "Cardiología",
+      "Hematología",
+      "Gastroenterología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Cirugía Mayor",
+      "Radioterapia",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Planificación Familiar",
+      "Tamizaje de Enfermedades Crónicas",
+      "Medición de Signos Vitales",
+      "Consultas Generales",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Nuevo Colón",
+    "codigoprestador": 1549400706,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD NUEVO COLON",
+    "nit": 820003328,
+    "direccion": "CARRERA 3 No. 2 - 16",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Endocrinología",
+      "Medicina Interna",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Trasplantes",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Ecografía",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Control Prenatal",
+      "Atención Dental",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Oicatá",
+    "codigoprestador": 1550000666,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO PUESTO DE SALUD OICATÁ",
+    "nit": 820003973,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Física y Rehabilitación",
+      "Medicina Nuclear",
+      "Medicina General",
+      "Ortopedia y Traumatología",
+      "Cirugía General",
+      "Nefrología"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Laboratorio Clínico",
+      "Endoscopía",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Desparasitación",
+      "Vacunación",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Otanche",
+    "codigoprestador": 1550700632,
+    "nombre": "ESE CENTRO DE SALUD MANUEL ELKIN PATARROYO",
+    "nit": 820004318,
+    "direccion": "CARRERA 5 NUMERO 5-04",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Psiquiatría",
+      "Ortopedia y Traumatología",
+      "Medicina Nuclear",
+      "Endocrinología"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Trasplantes",
+      "Neonatología",
+      "Medicina Paliativa",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Resonancia Magnética (RM)",
+      "Pruebas de Esfuerzo",
+      "Rayos X",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Consultas Generales",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Pachavita",
+    "codigoprestador": 1551100832,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD \"NUESTRA SEÑORA DE GUADALUPE\"",
+    "nit": 820003516,
+    "direccion": "KR 2 No 2-51",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Ginecología y Obstetricia",
+      "Medicina Nuclear",
+      "Infectología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Quimioterapia",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Mamografía",
+      "Densitometría Ósea",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Desparasitación",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Páez",
+    "codigoprestador": 1551400659,
+    "nombre": "Empresa Social del Estado Centro de Salud Jorge González Olmos",
+    "nit": 820003915,
+    "direccion": "Calle 3b Nº 3-63",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Dermatología",
+      "Anestesiología",
+      "Cirugía General",
+      "Psiquiatría",
+      "Hematología",
+      "Medicina Interna"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Quimioterapia",
+      "Neonatología"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Laboratorio Clínico",
+      "Electroencefalograma (EEG)",
+      "Ecografía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Planificación Familiar",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Paipa",
+    "codigoprestador": 1551600732,
+    "nombre": "E.S.E. HOSPITAL SAN VICENTE DE PAÚL",
+    "nit": 891855209,
+    "direccion": "CARRERA 20 # 21-37",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Radiología",
+      "Cirugía General",
+      "Otorrinolaringología",
+      "Urología",
+      "Neurología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Radioterapia",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Endoscopía",
+      "Electroencefalograma (EEG)",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Control Prenatal",
+      "Tamizaje de Enfermedades Crónicas",
+      "Atención Dental",
+      "Consultas Generales",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Paipa",
+    "codigoprestador": 1551603361,
+    "nombre": "CENTRO BIOMÉDICO",
+    "nit": 826000214,
+    "direccion": "KM 4 VIA PAIPA - PANTANO DE VARGAS",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Nuclear",
+      "Otorrinolaringología",
+      "Hematología",
+      "Medicina General"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Diálisis",
+      "Terapia Respiratoria",
+      "Medicina Paliativa"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Ecografía",
+      "Resonancia Magnética (RM)",
+      "Tomografía Computarizada (TC)",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Atención Dental",
+      "Chequeos Preventivos",
+      "Vacunación",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Pauna",
+    "codigoprestador": 1553100507,
+    "nombre": "CENTRO DE SALUD EDGAR ALONSO PULIDO SOLANO",
+    "nit": 820002916,
+    "direccion": "CALLE 7 No 3-46",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Psiquiatría",
+      "Infectología",
+      "Ortopedia y Traumatología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Medicina Paliativa",
+      "Radioterapia",
+      "Diálisis",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Densitometría Ósea",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Atención Dental",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Paya",
+    "codigoprestador": 1553300753,
+    "nombre": "EMPRESA SOCIAL DEL CENTRO DE SALUD DE PAYA",
+    "nit": 826002226,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Neurología",
+      "Oncología",
+      "Endocrinología",
+      "Ginecología y Obstetricia"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Quimioterapia",
+      "Neonatología",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Educación en Salud",
+      "Brigadas de Desinfección",
+      "Chequeos Preventivos",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Paz De Río",
+    "codigoprestador": 1553701086,
+    "nombre": "ESE SALUD PAZ DE RIO",
+    "nit": 826002718,
+    "direccion": "KR 4 No 7-32",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Infectología",
+      "Oncología",
+      "Endocrinología",
+      "Medicina del Trabajo",
+      "Otorrinolaringología",
+      "Hematología",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Trasplantes",
+      "Endoscopía",
+      "Geriatría",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Densitometría Ósea",
+      "Electrocardiograma (ECG)",
+      "Pruebas de Esfuerzo",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Control Prenatal",
+      "Educación en Salud",
+      "Brigadas de Desinfección",
+      "Planificación Familiar",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Pesca",
+    "codigoprestador": 1554200782,
+    "nombre": "E.S.E. SALUD PESCA PRODUCTIVA",
+    "nit": 826002031,
+    "direccion": "KR1 CL6",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Hematología",
+      "Pediatría",
+      "Anestesiología",
+      "Radiología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Endoscopía",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Pruebas de Esfuerzo",
+      "Mamografía",
+      "Electroencefalograma (EEG)",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Vacunación",
+      "Control Prenatal",
+      "Atención Dental",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Pisba",
+    "codigoprestador": 1555000811,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO NUESTRA SEÑORA DEL ROSARIO DE PISBA",
+    "nit": 826002963,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Anestesiología",
+      "Endocrinología",
+      "Reumatología",
+      "Gastroenterología",
+      "Oncología"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Electrocardiograma (ECG)",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Consultas Generales",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Puerto Boyacá",
+    "codigoprestador": 1557200807,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL JOSE CAYETANO VASQUEZ",
+    "nit": 891800570,
+    "direccion": "KR 5 No 26-2 avenida santander",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina General",
+      "Oftalmología",
+      "Medicina Interna"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Cirugía Mayor",
+      "Neonatología",
+      "Trasplantes",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Ecografía",
+      "Pruebas de Esfuerzo",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Tamizaje de Enfermedades Crónicas",
+      "Medición de Signos Vitales",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Quípama",
+    "codigoprestador": 1558000813,
+    "nombre": "ESE CENTRO DE SALUD NUESTRA SEÑORA DE LA PAZ",
+    "nit": 820002854,
+    "direccion": "CRA 9 # 2-102",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Cirugía General",
+      "Radiología",
+      "Reumatología",
+      "Urología",
+      "Oncología",
+      "Anestesiología"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Tomografía Computarizada (TC)",
+      "Endoscopía",
+      "Mamografía",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Control Prenatal",
+      "Educación en Salud",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Ramiriquí",
+    "codigoprestador": 1559900712,
+    "nombre": "ESE HOSPITAL SAN VICENTE DE RAMIRIQUÍ",
+    "nit": 891800644,
+    "direccion": "KR 3 # 7-21",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Cirugía General",
+      "Psiquiatría",
+      "Cardiología",
+      "Ginecología y Obstetricia",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Rehabilitación Cardíaca",
+      "Trasplantes",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Chequeos Preventivos",
+      "Brigadas de Desinfección",
+      "Medición de Signos Vitales",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Ráquira",
+    "codigoprestador": 1560000810,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SAN ANTONIO DE LA PARED",
+    "nit": 820000886,
+    "direccion": "CALLE 1A 5-10",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina General",
+      "Reumatología",
+      "Dermatología",
+      "Ginecología y Obstetricia"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Radioterapia",
+      "Neonatología",
+      "Endoscopía",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Tomografía Computarizada (TC)",
+      "Mamografía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Consultas Generales",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Rondón",
+    "codigoprestador": 1562101140,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SAN RAFAEL",
+    "nit": 820003444,
+    "direccion": "KR 4 No 1 - 52",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Neurología",
+      "Oncología",
+      "Reumatología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Terapia Respiratoria",
+      "Medicina Paliativa"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Resonancia Magnética (RM)",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Control Prenatal",
+      "Brigadas de Desinfección",
+      "Medición de Signos Vitales",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Saboyá",
+    "codigoprestador": 1563200812,
+    "nombre": "ESE CENTRO DE SALUD SAN VICENTE FERRER",
+    "nit": 820003431,
+    "direccion": "KR 11 5-20",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Nuclear",
+      "Medicina Interna",
+      "Anestesiología",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Tomografía Computarizada (TC)",
+      "Endoscopía",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Chequeos Preventivos",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Sáchica",
+    "codigoprestador": 1563800688,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE SACHICA",
+    "nit": 820004060,
+    "direccion": "Kr 3 No 6-05",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Medicina Interna",
+      "Nefrología",
+      "Medicina Física y Rehabilitación",
+      "Endocrinología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Diálisis",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Ecografía",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Chequeos Preventivos",
+      "Educación en Salud",
+      "Control Prenatal",
+      "Atención Dental",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Samacá",
+    "codigoprestador": 1564600787,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SANTA MARTA DE SAMACA",
+    "nit": 891800335,
+    "direccion": "calle 4ª No. 2-18",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Otorrinolaringología",
+      "Medicina Física y Rehabilitación",
+      "Nefrología",
+      "Endocrinología",
+      "Infectología",
+      "Hematología",
+      "Oftalmología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Neonatología",
+      "Terapia Respiratoria",
+      "Diálisis",
+      "Medicina Paliativa"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Brigadas de Desinfección",
+      "Vacunación",
+      "Consultas Generales",
+      "Control Prenatal",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "San Eduardo",
+    "codigoprestador": 1566000703,
+    "nombre": "ESE CENTRO DE SALUD JAIME DIAZ PEREZ",
+    "nit": 820003906,
+    "direccion": "CALLE 5 5-01",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Infectología",
+      "Medicina Interna",
+      "Ortopedia y Traumatología",
+      "Reumatología",
+      "Cardiología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Endoscopía",
+      "Trasplantes",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Educación en Salud",
+      "Vacunación",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "San José De Pare",
+    "codigoprestador": 1566400749,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SAN JOSE DE PARE",
+    "nit": 820003360,
+    "direccion": "CARRERA 3 No. 2 -56",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Urología",
+      "Medicina Física y Rehabilitación",
+      "Reumatología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Neonatología",
+      "Quimioterapia",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Resonancia Magnética (RM)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Vacunación",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "San Luis De Gaceno",
+    "codigoprestador": 1566700804,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN FRANCISCO",
+    "nit": 860060016,
+    "direccion": "CALLE 3 Nº 5 - 50",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Dermatología",
+      "Medicina General",
+      "Medicina Familiar y Comunitaria",
+      "Ortopedia y Traumatología",
+      "Medicina Física y Rehabilitación",
+      "Medicina Interna",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Neonatología",
+      "Quimioterapia",
+      "Terapia Respiratoria",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Atención Dental",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "San Miguel De Sema",
+    "codigoprestador": 1567600581,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SAN MIGUEL",
+    "nit": 820003401,
+    "direccion": "CL 4 3 57",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Endocrinología",
+      "Pediatría",
+      "Reumatología",
+      "Cardiología",
+      "Neurología"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Endoscopía",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Educación en Salud",
+      "Tamizaje de Enfermedades Crónicas",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "San Pablo De Borbur",
+    "codigoprestador": 1568100603,
+    "nombre": "Empresa Social del Estado Centro de SAlud San Pablo de Borbur",
+    "nit": 820003422,
+    "direccion": "calle 2 No. 1-41",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Urología",
+      "Medicina Nuclear",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Espirometría",
+      "Densitometría Ósea",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Vacunación",
+      "Chequeos Preventivos",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Santana",
+    "codigoprestador": 1568600845,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SANTANA",
+    "nit": 820003632,
+    "direccion": "Vereda Santa Barbara",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Otorrinolaringología",
+      "Urología",
+      "Oftalmología",
+      "Hematología",
+      "Gastroenterología",
+      "Psiquiatría",
+      "Oncología"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Laboratorio Clínico",
+      "Densitometría Ósea",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Vacunación",
+      "Educación en Salud",
+      "Planificación Familiar",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Santa Sofía",
+    "codigoprestador": 1569600687,
+    "nombre": "ESE CENTRO DE SALUD SANTA SOFIA",
+    "nit": 820003284,
+    "direccion": "CRA 2 # 4-88",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Urología",
+      "Dermatología",
+      "Medicina Nuclear",
+      "Oncología",
+      "Medicina General",
+      "Medicina Física y Rehabilitación",
+      "Otorrinolaringología"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Terapia Respiratoria",
+      "Radioterapia",
+      "Quimioterapia",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Laboratorio Clínico",
+      "Mamografía",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Brigadas de Desinfección",
+      "Planificación Familiar",
+      "Atención Dental",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Siachoque",
+    "codigoprestador": 1574000699,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO SALUD SIACHOQUE",
+    "nit": 820003684,
+    "direccion": "CRA 5 #2-03",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Interna",
+      "Medicina del Trabajo",
+      "Cirugía General",
+      "Medicina General",
+      "Cardiología",
+      "Anestesiología"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Laboratorio Clínico",
+      "Rayos X",
+      "Espirometría",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Chequeos Preventivos",
+      "Tamizaje de Enfermedades Crónicas",
+      "Educación en Salud",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Socha",
+    "codigoprestador": 1575700808,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SAGRADO CORAZON DE JESUS DE SOCHA",
+    "nit": 881862576,
+    "direccion": "KR 7 6-68",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina del Trabajo",
+      "Medicina General",
+      "Medicina Física y Rehabilitación",
+      "Medicina Familiar y Comunitaria",
+      "Medicina Interna"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Cirugía Mayor",
+      "Medicina Paliativa",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Tomografía Computarizada (TC)",
+      "Mamografía",
+      "Ecografía",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Planificación Familiar",
+      "Medición de Signos Vitales",
+      "Brigadas de Desinfección",
+      "Atención Dental",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Socotá",
+    "codigoprestador": 1575500776,
+    "nombre": "ESE CENTRO DE SALUD SAN ANTONIO DE SOCOTÁ",
+    "nit": 826002060,
+    "direccion": "CENTRO URBANO",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Nefrología",
+      "Ginecología y Obstetricia",
+      "Ortopedia y Traumatología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Resonancia Magnética (RM)",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Educación en Salud",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Sogamoso",
+    "codigoprestador": 1575900490,
+    "nombre": "SALUD SOGAMOSO EMPRESA SOCIAL DEL ESTADO",
+    "nit": 826000923,
+    "direccion": "Kra 9 Nº 11 - 74",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Radiología",
+      "Medicina Física y Rehabilitación",
+      "Anestesiología"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Ecografía",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Consultas Generales",
+      "Atención Dental",
+      "Chequeos Preventivos",
+      "Brigadas de Desinfección",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Sogamoso",
+    "codigoprestador": 1575902008,
+    "nombre": "SERVICIO MÉDICO ASISTENCIAL SENA",
+    "nit": 899999034,
+    "direccion": "Carrera 12 Nº 55A-51",
+    "nivelcomplejidad": 1,
+    "caracter": "Nacional",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Gastroenterología",
+      "Urología",
+      "Ortopedia y Traumatología",
+      "Anestesiología",
+      "Reumatología"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Litotricia",
+      "Terapia Respiratoria",
+      "Geriatría",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Ecografía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Atención Dental",
+      "Tamizaje de Enfermedades Crónicas",
+      "Vacunación",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Somondoco",
+    "codigoprestador": 1576100650,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SAN SEBASTIAN DE SOMONDOCO",
+    "nit": 820002608,
+    "direccion": "CALLE 2 No 4 - 64",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Infectología",
+      "Medicina Interna",
+      "Medicina Familiar y Comunitaria",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Rehabilitación Cardíaca",
+      "Trasplantes",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Endoscopía",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Planificación Familiar",
+      "Educación en Salud",
+      "Vacunación",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Sora",
+    "codigoprestador": 1576200822,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SANTA BARBARA DE SORA",
+    "nit": 820003357,
+    "direccion": "CR 2 N 2-85",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Radiología",
+      "Oftalmología",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Endoscopía",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Rayos X",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Medición de Signos Vitales",
+      "Desparasitación",
+      "Vacunación",
+      "Atención Dental",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Soracá",
+    "codigoprestador": 1576400697,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD FE Y ESPERANZA SORACA",
+    "nit": 820003533,
+    "direccion": "Calle 5 No 2 - 17",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Pediatría",
+      "Medicina Interna",
+      "Medicina General",
+      "Infectología",
+      "Ortopedia y Traumatología",
+      "Oncología"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Geriatría",
+      "Rehabilitación Cardíaca",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Control Prenatal",
+      "Chequeos Preventivos",
+      "Medición de Signos Vitales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Sotaquirá",
+    "codigoprestador": 1576300372,
+    "nombre": "E.S.E CENTRO DE SALUD MANUEL ALBERTO FONSECA SANDOVAL DE SOTAQUIRA",
+    "nit": 820003374,
+    "direccion": "CALLE 7 No 3 - 11",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Nuclear",
+      "Otorrinolaringología",
+      "Urología",
+      "Infectología",
+      "Medicina Interna",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Chequeos Preventivos",
+      "Tamizaje de Enfermedades Crónicas",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Susacón",
+    "codigoprestador": 1577400427,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD HECTOR PINEDA GALLO",
+    "nit": 826002625,
+    "direccion": "CLL 6 No 5-151",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Psiquiatría",
+      "Cirugía General",
+      "Oftalmología",
+      "Medicina Física y Rehabilitación",
+      "Medicina Familiar y Comunitaria",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Ecografía",
+      "Endoscopía",
+      "Mamografía",
+      "Tomografía Computarizada (TC)",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Control Prenatal",
+      "Desparasitación",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Sutamarchán",
+    "codigoprestador": 1577600707,
+    "nombre": "E.S.E. Centro De Salud Santo Eccehomo De Sutamarchan",
+    "nit": 820003876,
+    "direccion": "Kra. 3 Número 2-02",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Cirugía General",
+      "Medicina General",
+      "Medicina del Trabajo",
+      "Oftalmología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Endoscopía",
+      "Rayos X",
+      "Tomografía Computarizada (TC)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Educación en Salud",
+      "Brigadas de Desinfección",
+      "Medición de Signos Vitales",
+      "Consultas Generales",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tasco",
+    "codigoprestador": 1579000702,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO NUESTRA SEÑORA DEL ROSARIO",
+    "nit": 826002694,
+    "direccion": "PARQUE PRINCIPAL",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Psiquiatría",
+      "Medicina del Trabajo",
+      "Otorrinolaringología",
+      "Oncología",
+      "Cirugía General"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Litotricia",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Espirometría",
+      "Rayos X",
+      "Densitometría Ósea",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Vacunación",
+      "Atención Dental",
+      "Control Prenatal",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tibaná",
+    "codigoprestador": 1580400271,
+    "nombre": "ESE Gustavo Romero Hernandez",
+    "nit": 820002657,
+    "direccion": "Cra 5 No 1 - 79",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Urología",
+      "Endocrinología",
+      "Medicina General",
+      "Radiología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Terapia Respiratoria",
+      "Medicina Paliativa",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Mamografía",
+      "Electroencefalograma (EEG)",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Consultas Generales",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tibasosa",
+    "codigoprestador": 1580600677,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO INES OHOA PEREZ DE TIBASOSA",
+    "nit": 826002852,
+    "direccion": "KR 9 # 4-32",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Pediatría",
+      "Endocrinología",
+      "Dermatología",
+      "Neurología",
+      "Cirugía General"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Rehabilitación Cardíaca",
+      "Diálisis",
+      "Litotricia",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Resonancia Magnética (RM)",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Planificación Familiar",
+      "Consultas Generales",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tinjacá",
+    "codigoprestador": 1580800556,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SAN BLAS",
+    "nit": 820003619,
+    "direccion": "CL 5 4 70",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Radiología",
+      "Gastroenterología",
+      "Neurología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Terapia Respiratoria",
+      "Geriatría",
+      "Neonatología"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Mamografía",
+      "Laboratorio Clínico",
+      "Electroencefalograma (EEG)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Vacunación",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tipacoque",
+    "codigoprestador": 1581000755,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SANTA RITA DE CASIA TIPACOQUE",
+    "nit": 826002765,
+    "direccion": "CALLE 2 No. 0 - 01",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Gastroenterología",
+      "Oftalmología",
+      "Medicina del Trabajo",
+      "Radiología",
+      "Medicina Nuclear",
+      "Medicina Física y Rehabilitación"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Rayos X",
+      "Electrocardiograma (ECG)",
+      "Ecografía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Consultas Generales",
+      "Vacunación",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Toca",
+    "codigoprestador": 1581401159,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD TOCA",
+    "nit": 820003524,
+    "direccion": "CARRERA 10 N° 2-99",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Medicina General",
+      "Endocrinología",
+      "Pediatría",
+      "Cirugía General"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Trasplantes",
+      "Quimioterapia",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Vacunación",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Togüí",
+    "codigoprestador": 1581600553,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE TOGUI",
+    "nit": 820003435,
+    "direccion": "KR 3 Nº 1 - 58",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Urología",
+      "Psiquiatría",
+      "Dermatología",
+      "Nefrología",
+      "Pediatría",
+      "Infectología",
+      "Medicina Familiar y Comunitaria"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Cirugía Mayor",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Rehabilitación Cardíaca",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Tamizaje de Enfermedades Crónicas",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tópaga",
+    "codigoprestador": 1582000177,
+    "nombre": "ESE SAN JUDAS TADEO TOPAGA",
+    "nit": 826002929,
+    "direccion": "CALLE 5 No 5-84",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Hematología",
+      "Medicina General",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Medicina Paliativa",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Ecografía",
+      "Electroencefalograma (EEG)",
+      "Electrocardiograma (ECG)"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Educación en Salud",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tota",
+    "codigoprestador": 1582200742,
+    "nombre": "ESE CENTRO DE SALUD DE TOTA",
+    "nit": 826002890,
+    "direccion": "CENTRO TOTA",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Endocrinología",
+      "Nefrología",
+      "Medicina Familiar y Comunitaria",
+      "Medicina Nuclear",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Quimioterapia",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Electrocardiograma (ECG)",
+      "Espirometría",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Desparasitación",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tunja",
+    "codigoprestador": 1500100266,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE REHABILITACION INTEGRAL DE BOYACA",
+    "nit": 891800982,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oncología",
+      "Oftalmología",
+      "Dermatología",
+      "Medicina Interna",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Diálisis",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Chequeos Preventivos",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tunja",
+    "codigoprestador": 1500100387,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO SAN RAFAEL DE TUNJA",
+    "nit": 891800231,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 3,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Cirugía General",
+      "Medicina Interna",
+      "Oftalmología",
+      "Ortopedia y Traumatología",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Neonatología"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Densitometría Ósea",
+      "Laboratorio Clínico",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Planificación Familiar",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tunja",
+    "codigoprestador": 1500100785,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO SANTIAGO DE TUNJA - CENTRO No 1",
+    "nit": 820003850,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 2,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina General",
+      "Infectología",
+      "Pediatría",
+      "Dermatología",
+      "Neurología"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Rehabilitación Cardíaca",
+      "Diálisis",
+      "Terapia Respiratoria",
+      "Neonatología"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Endoscopía",
+      "Rayos X",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Brigadas de Desinfección",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tununguá",
+    "codigoprestador": 1583200481,
+    "nombre": "ESE CENTRO DE SALUD SANTA BARBARA DE TUNUNGUA",
+    "nit": 820003839,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Urología",
+      "Psiquiatría",
+      "Endocrinología",
+      "Oncología",
+      "Medicina Física y Rehabilitación",
+      "Medicina Interna"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Electroencefalograma (EEG)",
+      "Ecografía",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Atención Dental",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Turmequé",
+    "codigoprestador": 1583500667,
+    "nombre": "HOSPITAL BAUDILIO ACERO DE TURMEQUE",
+    "nit": 891800857,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Infectología",
+      "Neurología",
+      "Medicina Nuclear",
+      "Anestesiología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Geriatría",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Rayos X",
+      "Electrocardiograma (ECG)",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Planificación Familiar",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tuta",
+    "codigoprestador": 1583700709,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO PUESTO DE SALUD SAN MIGUEL DE TUTA",
+    "nit": 820003641,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Gastroenterología",
+      "Medicina Interna",
+      "Cardiología",
+      "Anestesiología",
+      "Cirugía General",
+      "Oncología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Radioterapia",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Quimioterapia",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Pruebas de Esfuerzo",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Brigadas de Desinfección",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Tutazá",
+    "codigoprestador": 1583901058,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SIMON BOLIVAR DE TUTAZA",
+    "nit": 826002860,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Radiología",
+      "Cirugía General",
+      "Medicina Familiar y Comunitaria",
+      "Medicina Nuclear",
+      "Anestesiología",
+      "Reumatología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Terapia Respiratoria",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Espirometría",
+      "Electrocardiograma (ECG)"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Control Prenatal",
+      "Brigadas de Desinfección",
+      "Tamizaje de Enfermedades Crónicas",
+      "Medición de Signos Vitales",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Umbita",
+    "codigoprestador": 1584200772,
+    "nombre": "ESE CENTRO DE SALUD SAN RAFAEL",
+    "nit": 820003782,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Interna",
+      "Medicina General",
+      "Medicina del Trabajo",
+      "Endocrinología",
+      "Medicina Física y Rehabilitación",
+      "Radiología"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Ecografía",
+      "Mamografía",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Atención Dental",
+      "Control Prenatal",
+      "Educación en Salud",
+      "Vacunación",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Ventaquemada",
+    "codigoprestador": 1586100586,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DEL MUNICIPIO DE VENTAQUEMADA",
+    "nit": 820002248,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Endocrinología",
+      "Medicina Interna",
+      "Otorrinolaringología",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Chequeos Preventivos",
+      "Educación en Salud",
+      "Atención Dental",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Villa De Leyva",
+    "codigoprestador": 1540700841,
+    "nombre": "ESE HOSPITAL SAN FRANCISCO",
+    "nit": 891800906,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Psiquiatría",
+      "Urología",
+      "Radiología",
+      "Medicina Interna"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Neonatología",
+      "Cirugía Mayor",
+      "Diálisis",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Ecografía",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Chequeos Preventivos",
+      "Atención Dental",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Viracachá",
+    "codigoprestador": 1587900720,
+    "nombre": "ESE CENTRO DE SALUD VIRACACHA",
+    "nit": 820003352,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Oncología",
+      "Cardiología",
+      "Medicina del Trabajo",
+      "Anestesiología",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Radioterapia",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Endoscopía",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Densitometría Ósea",
+      "Mamografía",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Vacunación",
+      "Educación en Salud",
+      "Atención Dental",
+      "Planificación Familiar",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Boyacá",
+    "ciudad": "Zetaquira",
+    "codigoprestador": 1589700665,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE ZETAQUIRA",
+    "nit": 820002715,
+    "direccion": "Sin dirección",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Oncología",
+      "Oftalmología",
+      "Medicina Familiar y Comunitaria",
+      "Anestesiología",
+      "Cardiología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Electrocardiograma (ECG)",
+      "Espirometría",
+      "Mamografía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Desparasitación",
+      "Control Prenatal",
+      "Planificación Familiar",
+      "Medición de Signos Vitales",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Agua De Dios",
+    "codigoprestador": 2500100094,
+    "nombre": "SANATORIO DE AGUA DE DIOS E.S.E. - (250010009401)",
+    "nit": 890680014,
+    "direccion": "KR 11 No. 21-108",
+    "nivelcomplejidad": 1,
+    "caracter": "Nacional",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Anestesiología",
+      "Urología",
+      "Medicina Interna",
+      "Ginecología y Obstetricia",
+      "Gastroenterología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Laboratorio Clínico",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Medición de Signos Vitales",
+      "Atención Dental",
+      "Vacunación",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Anolaima",
+    "codigoprestador": 2504000352,
+    "nombre": "PUESTO DE SALUD LA FLORIDA",
+    "nit": 832001465,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Infectología",
+      "Reumatología",
+      "Endocrinología",
+      "Medicina del Trabajo",
+      "Cardiología",
+      "Psiquiatría",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Neonatología",
+      "Diálisis",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Espirometría",
+      "Densitometría Ósea",
+      "Endoscopía",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Planificación Familiar",
+      "Brigadas de Desinfección",
+      "Consultas Generales",
+      "Desparasitación",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Venecia",
+    "codigoprestador": 2550600023,
+    "nombre": "CENTRO DE SALUD VENECIA",
+    "nit": 890680031,
+    "direccion": "CL 4 No. 2-56",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Radiología",
+      "Pediatría",
+      "Cirugía General",
+      "Medicina General",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Diálisis",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Resonancia Magnética (RM)",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Desparasitación",
+      "Chequeos Preventivos",
+      "Consultas Generales",
+      "Vacunación",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Cajicá",
+    "codigoprestador": 2512600353,
+    "nombre": "ESE HOSPITAL PROFESOR JORGE CAVELIER -I- NIVEL DE ATENCION CAJICA",
+    "nit": 832002436,
+    "direccion": "Carrera 4 No. 1 - 10",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Endocrinología",
+      "Radiología",
+      "Ortopedia y Traumatología",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Radioterapia",
+      "Cirugía Mayor",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Endoscopía",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Atención Dental",
+      "Tamizaje de Enfermedades Crónicas",
+      "Medición de Signos Vitales",
+      "Consultas Generales",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Cajicá",
+    "codigoprestador": 2512602470,
+    "nombre": "universidad Militar Nueva Granada",
+    "nit": 800225340,
+    "direccion": "Km. 2 Vía Zipaquirá",
+    "nivelcomplejidad": 1,
+    "caracter": "Nacional",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oftalmología",
+      "Neurología",
+      "Ortopedia y Traumatología"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Rehabilitación Cardíaca",
+      "Litotricia",
+      "Neonatología",
+      "Medicina Paliativa"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Rayos X",
+      "Electroencefalograma (EEG)",
+      "Resonancia Magnética (RM)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Desparasitación",
+      "Control Prenatal",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Caqueza",
+    "codigoprestador": 2515100016,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN RAFAEL DE CAQUEZA",
+    "nit": 832001411,
+    "direccion": "Calle 6 Nº 5 - 00",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Urología",
+      "Anestesiología",
+      "Dermatología",
+      "Reumatología"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Rehabilitación Cardíaca",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Electroencefalograma (EEG)",
+      "Tomografía Computarizada (TC)",
+      "Endoscopía",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Atención Dental",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Carmen De Carupa",
+    "codigoprestador": 2515400077,
+    "nombre": "ESE HOSPITAL HABACUC CALDERON DE CARMEN DE CARUPA",
+    "nit": 899999161,
+    "direccion": "Calle 2 No. 1E-50",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oncología",
+      "Endocrinología",
+      "Ginecología y Obstetricia"
+    ],
+    "serviciosespecializados": [
+      "Litotricia",
+      "Trasplantes",
+      "Neonatología",
+      "Geriatría",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Mamografía",
+      "Ecografía",
+      "Laboratorio Clínico",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Desparasitación",
+      "Planificación Familiar",
+      "Brigadas de Desinfección",
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Chía",
+    "codigoprestador": 2517500020,
+    "nombre": "E.S.E. HOSPITAL SAN ANTONIO DE CHIA - (251750002001)",
+    "nit": 899999156,
+    "direccion": "KR 10 N 8-24",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Pediatría",
+      "Oftalmología",
+      "Cardiología",
+      "Urología",
+      "Endocrinología"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Medicina Paliativa",
+      "Rehabilitación Cardíaca",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Brigadas de Desinfección",
+      "Atención Dental",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Chocontá",
+    "codigoprestador": 2518300025,
+    "nombre": "ESE HOSPITAL SAN MARTIN DE PORRES DE CHOCONTA",
+    "nit": 860024766,
+    "direccion": "CARRERA 4 N° 8-12",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Anestesiología",
+      "Infectología",
+      "Gastroenterología"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Rehabilitación Cardíaca",
+      "Quimioterapia",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Mamografía",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Medición de Signos Vitales",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Cucunubá",
+    "codigoprestador": 2522400277,
+    "nombre": "E.S.E. CENTRO DE SALUD CUCUNUBA - (252240027701)",
+    "nit": 832010240,
+    "direccion": "KR 4 No. 4-61",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Nuclear",
+      "Gastroenterología",
+      "Radiología",
+      "Otorrinolaringología"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Planificación Familiar",
+      "Medición de Signos Vitales",
+      "Control Prenatal",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "El Colegio",
+    "codigoprestador": 2524500057,
+    "nombre": "ESE HOSPITAL NUESTRA SEÑORA DEL CARMEN DE EL COLEGIO",
+    "nit": 860020094,
+    "direccion": "Calle 6 No. 7-38/ CARRERA 8 No.6-06 /28 /32",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Cirugía General",
+      "Medicina Física y Rehabilitación",
+      "Hematología",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Cirugía Mayor",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Neonatología"
+    ],
+    "equipodiagnostico": [
+      "Electrocardiograma (ECG)",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Atención Dental",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "El Peñón",
+    "codigoprestador": 2525801860,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CAYETANO MARIA DE ROJAS - (252580186001)",
+    "nit": 900129296,
+    "direccion": "KR 3 No.3-09",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Física y Rehabilitación",
+      "Anestesiología",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Electroencefalograma (EEG)",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Control Prenatal",
+      "Desparasitación",
+      "Atención Dental"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Albán",
+    "codigoprestador": 2501900049,
+    "nombre": "PUESTO DE SALUD DE ALBAN",
+    "nit": 899999151,
+    "direccion": "KR 1 N 3 15",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Psiquiatría",
+      "Cirugía General",
+      "Otorrinolaringología",
+      "Medicina del Trabajo",
+      "Dermatología"
+    ],
+    "serviciosespecializados": [
+      "Medicina Paliativa",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Pruebas de Esfuerzo",
+      "Rayos X",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Vacunación",
+      "Brigadas de Desinfección",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Choachí",
+    "codigoprestador": 2518100055,
+    "nombre": "CENTRO DE SALUD DE CHOACHI",
+    "nit": 800174375,
+    "direccion": "Cra 6A N°5-00 Zona Urbana Municipio Choachi",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Infectología",
+      "Medicina Interna",
+      "Cardiología",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Litotricia",
+      "Quimioterapia",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Electroencefalograma (EEG)",
+      "Densitometría Ósea",
+      "Ecografía",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Atención Dental",
+      "Brigadas de Desinfección",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Fosca",
+    "codigoprestador": 2528100212,
+    "nombre": "CENTRO DE SALUD DE FOSCA E.S.E - (252810021201)",
+    "nit": 832007272,
+    "direccion": "KR 1 No. 3-05",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Nefrología",
+      "Medicina General",
+      "Cardiología",
+      "Medicina Interna",
+      "Medicina Nuclear",
+      "Dermatología",
+      "Neurología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Quimioterapia",
+      "Endoscopía",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Electrocardiograma (ECG)",
+      "Rayos X",
+      "Endoscopía"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Atención Dental",
+      "Vacunación",
+      "Planificación Familiar",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Funza",
+    "codigoprestador": 2528602522,
+    "nombre": "CENTRO DE SALUD SIETE TROJES",
+    "nit": 900750333,
+    "direccion": "VEREDA SIETE TROJES",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Hematología",
+      "Otorrinolaringología",
+      "Psiquiatría",
+      "Dermatología",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Cirugía Mayor",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Densitometría Ósea",
+      "Espirometría",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Desparasitación",
+      "Vacunación",
+      "Tamizaje de Enfermedades Crónicas",
+      "Medición de Signos Vitales",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Fusagasugá",
+    "codigoprestador": 2529000036,
+    "nombre": "PUESTO DE SALUD LA VENTA - (252900003603)",
+    "nit": 890680025,
+    "direccion": "KR 64 No. 21 A-90",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oftalmología",
+      "Oncología",
+      "Radiología",
+      "Cirugía General",
+      "Urología",
+      "Otorrinolaringología",
+      "Medicina Interna"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Quimioterapia",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Brigadas de Desinfección",
+      "Educación en Salud",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Gachala",
+    "codigoprestador": 2529300035,
+    "nombre": "CENTRO DE SALUD GACHALA",
+    "nit": 899999163,
+    "direccion": "calle 3A No 4-12",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Nefrología",
+      "Medicina Familiar y Comunitaria",
+      "Oftalmología",
+      "Ortopedia y Traumatología",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Medicina Paliativa",
+      "Trasplantes",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Mamografía",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Vacunación",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Guachetá",
+    "codigoprestador": 2531700044,
+    "nombre": "ESE HOSPITAL SAN JOSE DE GUACHETA",
+    "nit": 800204497,
+    "direccion": "CARRERA 2 No. 1 - 50",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina del Trabajo",
+      "Pediatría",
+      "Medicina General",
+      "Urología",
+      "Endocrinología",
+      "Medicina Interna"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Endoscopía",
+      "Terapia Respiratoria",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Tomografía Computarizada (TC)",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Vacunación",
+      "Educación en Salud",
+      "Brigadas de Desinfección",
+      "Planificación Familiar",
+      "Medición de Signos Vitales"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Caparrapí",
+    "codigoprestador": 2514800074,
+    "nombre": "CENTRO DE SALUD DE CAPARRAPI - (251480007410)",
+    "nit": 860020283,
+    "direccion": "Carrera 4 Nº 13 - 102 Barrio las Villas",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Física y Rehabilitación",
+      "Otorrinolaringología",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Endoscopía",
+      "Litotricia",
+      "Neonatología"
+    ],
+    "equipodiagnostico": [
+      "Electrocardiograma (ECG)",
+      "Tomografía Computarizada (TC)",
+      "Densitometría Ósea",
+      "Mamografía",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Medición de Signos Vitales",
+      "Consultas Generales",
+      "Desparasitación",
+      "Vacunación",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Guasca",
+    "codigoprestador": 2532200053,
+    "nombre": "CENTRO DE SALUD DE GUASCA",
+    "nit": 860035447,
+    "direccion": "KR 1A N° 6-22",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Medicina del Trabajo",
+      "Endocrinología",
+      "Cardiología",
+      "Oftalmología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Terapia Respiratoria",
+      "Rehabilitación Cardíaca",
+      "Litotricia",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Rayos X",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Desparasitación",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Junín",
+    "codigoprestador": 2537200314,
+    "nombre": "E.S.E. POLICLINICO DE JUNIN - (253720031401)",
+    "nit": 900000427,
+    "direccion": "KR 3 No. 5-27",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oncología",
+      "Radiología",
+      "Pediatría",
+      "Medicina Nuclear"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Medicina Paliativa",
+      "Terapia Respiratoria",
+      "Rehabilitación Cardíaca",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Rayos X",
+      "Laboratorio Clínico",
+      "Pruebas de Esfuerzo",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Brigadas de Desinfección",
+      "Control Prenatal",
+      "Educación en Salud",
+      "Planificación Familiar",
+      "Desparasitación",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Anapoima",
+    "codigoprestador": 2503500043,
+    "nombre": "CENTRO DE SALUD DE ANAPOIMA - (250350004302)",
+    "nit": 890680027,
+    "direccion": "CLL 3 KR 3 ESQUINA",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Interna",
+      "Oftalmología",
+      "Nefrología",
+      "Urología",
+      "Medicina Nuclear"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Electrocardiograma (ECG)",
+      "Pruebas de Esfuerzo",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Educación en Salud",
+      "Control Prenatal",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "La Palma",
+    "codigoprestador": 2539400034,
+    "nombre": "E.S.E HOSPITAL SAN JOSE DE LA PALMA - (253940003401)",
+    "nit": 899999165,
+    "direccion": "KR 5 No. 1-08",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Nuclear",
+      "Cardiología",
+      "Hematología",
+      "Medicina Interna",
+      "Neurología",
+      "Ortopedia y Traumatología"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Rayos X",
+      "Endoscopía",
+      "Ecografía",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Medición de Signos Vitales",
+      "Chequeos Preventivos",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "La Vega",
+    "codigoprestador": 2540203113,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL DE LA VEGA",
+    "nit": 900807482,
+    "direccion": "TRANSVERSAL 3 Nº 10 - 50",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Cardiología",
+      "Psiquiatría",
+      "Reumatología",
+      "Dermatología",
+      "Medicina Interna",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Medicina Paliativa",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Densitometría Ósea",
+      "Mamografía",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Chequeos Preventivos",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Bojacá",
+    "codigoprestador": 2509900021,
+    "nombre": "CENTRO DE SALUD DE BOJACA - (250990002106)",
+    "nit": 860009555,
+    "direccion": "CRA. 6 No. 6-46",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Cirugía General",
+      "Ortopedia y Traumatología",
+      "Neurología",
+      "Infectología",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Rehabilitación Cardíaca",
+      "Unidad de Cuidados Intensivos (UCI)"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Densitometría Ósea",
+      "Electroencefalograma (EEG)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Consultas Generales",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Medina",
+    "codigoprestador": 2543800045,
+    "nombre": "E.S.E. HOSPITAL NUESTRA SEÑORA DE MEDINA - (254380004501)",
+    "nit": 892001990,
+    "direccion": "KR 6 No.11-38",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina General",
+      "Gastroenterología",
+      "Pediatría",
+      "Ortopedia y Traumatología"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Terapia Respiratoria",
+      "Quimioterapia",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Consultas Generales",
+      "Medición de Signos Vitales",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Mosquera",
+    "codigoprestador": 2547300303,
+    "nombre": "HOSPITAL MARIA AUXILIADORA EMPRESA SOCIAL DE ESTADO DEL MUNICIPIO DE MOSQUERA",
+    "nit": 832010436,
+    "direccion": "Calle 3 N° 2-15 ESTE",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Psiquiatría",
+      "Gastroenterología",
+      "Reumatología",
+      "Medicina del Trabajo"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Quimioterapia",
+      "Geriatría",
+      "Litotricia",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Espirometría",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Medición de Signos Vitales",
+      "Chequeos Preventivos",
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Nemocón",
+    "codigoprestador": 2548600037,
+    "nombre": "ESE HOSPITAL SAN VICENTE DE PAUL DE NEMOCON",
+    "nit": 860024026,
+    "direccion": "KR 6 No.9-40 SUR",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Cardiología",
+      "Cirugía General",
+      "Otorrinolaringología",
+      "Reumatología",
+      "Nefrología",
+      "Anestesiología"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Rayos X",
+      "Laboratorio Clínico",
+      "Pruebas de Esfuerzo",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Educación en Salud",
+      "Brigadas de Desinfección",
+      "Desparasitación",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Nimaima",
+    "codigoprestador": 2548900276,
+    "nombre": "E.S.E. CENTRO DE SALUD SAN JOSE DE NIMAIMA - (254890027601)",
+    "nit": 832009187,
+    "direccion": "KR 4 5-15",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Dermatología",
+      "Anestesiología",
+      "Hematología",
+      "Infectología",
+      "Endocrinología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Quimioterapia",
+      "Medicina Paliativa",
+      "Diálisis",
+      "Geriatría"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Espirometría",
+      "Endoscopía",
+      "Laboratorio Clínico",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Control Prenatal",
+      "Consultas Generales",
+      "Brigadas de Desinfección",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Pacho",
+    "codigoprestador": 2551300028,
+    "nombre": "Puesto de salud Pasuncha",
+    "nit": 800099860,
+    "direccion": "Cra. 2 #3-31/39 y calle 4#2-21",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Psiquiatría",
+      "Ortopedia y Traumatología",
+      "Neurología",
+      "Hematología",
+      "Gastroenterología",
+      "Reumatología",
+      "Ginecología y Obstetricia"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Neonatología",
+      "Diálisis",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Endoscopía",
+      "Rayos X",
+      "Electrocardiograma (ECG)",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Atención Dental",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Puerto Salgar",
+    "codigoprestador": 2557200052,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL DIOGENES TRONCOSO DE PUERTO SALGAR",
+    "nit": 860024030,
+    "direccion": "calle 14# 2-91",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Física y Rehabilitación",
+      "Reumatología",
+      "Medicina del Trabajo",
+      "Radiología",
+      "Pediatría",
+      "Nefrología"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Neonatología",
+      "Trasplantes",
+      "Endoscopía",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Atención Dental",
+      "Desparasitación",
+      "Chequeos Preventivos",
+      "Vacunación",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Beltrán",
+    "codigoprestador": 2508600061,
+    "nombre": "PUESTO DE SALUD PAQUILO",
+    "nit": 860023999,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Ginecología y Obstetricia",
+      "Oftalmología",
+      "Medicina Familiar y Comunitaria",
+      "Pediatría",
+      "Otorrinolaringología",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Radioterapia",
+      "Trasplantes",
+      "Terapia Respiratoria",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Ecografía",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Educación en Salud",
+      "Consultas Generales",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Ricaurte",
+    "codigoprestador": 2561201832,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD DE RICAURTE - (256120183201)",
+    "nit": 900058218,
+    "direccion": "CL 4 No. 14B-22",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Dermatología",
+      "Oftalmología",
+      "Medicina General",
+      "Gastroenterología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Rehabilitación Cardíaca",
+      "Geriatría",
+      "Endoscopía",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Electrocardiograma (ECG)",
+      "Ecografía",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Consultas Generales",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "San Antonio Del Tequendama",
+    "codigoprestador": 2564502173,
+    "nombre": "E.S.E. HOSPITAL SAN ANTONIO DEL TEQUENDAMA",
+    "nit": 900036553,
+    "direccion": "KR 5 No. 4-18",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Hematología",
+      "Medicina General",
+      "Pediatría",
+      "Ginecología y Obstetricia"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Litotricia",
+      "Radioterapia",
+      "Diálisis",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Electrocardiograma (ECG)",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Atención Dental",
+      "Brigadas de Desinfección",
+      "Educación en Salud",
+      "Planificación Familiar",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "San Francisco",
+    "codigoprestador": 2565802219,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD SAN FRANCISCO DE SALES",
+    "nit": 900283194,
+    "direccion": "CL 5 KR 7 ESQ",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Otorrinolaringología",
+      "Cirugía General",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Geriatría",
+      "Quimioterapia",
+      "Terapia Respiratoria",
+      "Medicina Paliativa"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Tomografía Computarizada (TC)",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Planificación Familiar",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Sasaima",
+    "codigoprestador": 2571800018,
+    "nombre": "E.S.E. HOSPITAL HILARIO LUGO DE SASAIMA",
+    "nit": 832000029,
+    "direccion": "CARRERA 4 No. 8A-75",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oftalmología",
+      "Pediatría",
+      "Otorrinolaringología",
+      "Cardiología",
+      "Medicina Física y Rehabilitación",
+      "Urología",
+      "Oncología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Radioterapia",
+      "Rehabilitación Cardíaca",
+      "Diálisis"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Vacunación",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Gachancipá",
+    "codigoprestador": 2529500017,
+    "nombre": "PUESTO DE SALUD DE GACHANCIPA",
+    "nit": 899999158,
+    "direccion": "KR 2 No. 6-41",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Psiquiatría",
+      "Radiología",
+      "Neurología",
+      "Endocrinología",
+      "Medicina Nuclear",
+      "Ginecología y Obstetricia",
+      "Cirugía General"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Medicina Paliativa",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Densitometría Ósea",
+      "Mamografía",
+      "Electroencefalograma (EEG)",
+      "Pruebas de Esfuerzo",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Tamizaje de Enfermedades Crónicas",
+      "Chequeos Preventivos",
+      "Educación en Salud",
+      "Control Prenatal",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Arbeláez",
+    "codigoprestador": 2505302340,
+    "nombre": "CENTRO BIENESTAR DEL ANCIANO ARBELAEZ",
+    "nit": 899999072,
+    "direccion": "calle 7° N° 11-95",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oftalmología",
+      "Medicina del Trabajo",
+      "Medicina Nuclear",
+      "Endocrinología",
+      "Ginecología y Obstetricia",
+      "Medicina Física y Rehabilitación",
+      "Gastroenterología"
+    ],
+    "serviciosespecializados": [
+      "Trasplantes",
+      "Quimioterapia",
+      "Radioterapia",
+      "Endoscopía"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Atención Dental",
+      "Control Prenatal",
+      "Tamizaje de Enfermedades Crónicas",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Silvania",
+    "codigoprestador": 2574300381,
+    "nombre": "HOSPITAL ISMAEL SILVA ESE SEDE AGUABONITA - (257430038103)",
+    "nit": 808003500,
+    "direccion": "VEREDA AGUABONITA",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Cardiología",
+      "Infectología",
+      "Urología",
+      "Psiquiatría",
+      "Medicina General",
+      "Ortopedia y Traumatología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Geriatría",
+      "Neonatología",
+      "Terapia Respiratoria",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Espirometría",
+      "Ecografía",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Educación en Salud",
+      "Tamizaje de Enfermedades Crónicas",
+      "Brigadas de Desinfección"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Soacha",
+    "codigoprestador": 2575400075,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO E.S.E MUNICIPAL DE SOACHA - SEDE SAN MATEO - (257540007502)",
+    "nit": 832001794,
+    "direccion": "CL 29 6G 75 E",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Hematología",
+      "Nefrología",
+      "Neurología",
+      "Medicina Nuclear"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Geriatría",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Medicina Paliativa"
+    ],
+    "equipodiagnostico": [
+      "Resonancia Magnética (RM)",
+      "Pruebas de Esfuerzo",
+      "Densitometría Ósea",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Chequeos Preventivos",
+      "Educación en Salud",
+      "Desparasitación",
+      "Planificación Familiar",
+      "Vacunación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Granada",
+    "codigoprestador": 2531200380,
+    "nombre": "CENTRO DE SALUD DE GRANADA - (253120038003)",
+    "nit": 800006850,
+    "direccion": "CL 10 No. 13 - 15",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Física y Rehabilitación",
+      "Dermatología",
+      "Nefrología",
+      "Reumatología",
+      "Hematología",
+      "Pediatría"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Neonatología",
+      "Cirugía Mayor",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Endoscopía",
+      "Densitometría Ósea",
+      "Tomografía Computarizada (TC)"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Tamizaje de Enfermedades Crónicas",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "La Calera",
+    "codigoprestador": 2537700051,
+    "nombre": "CENTRO DE SALUD DE LA CALERA - (253770005102)",
+    "nit": 860023878,
+    "direccion": "kR. 4 Cl 8 ESQUINA",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Interna",
+      "Medicina Nuclear",
+      "Ortopedia y Traumatología",
+      "Medicina General",
+      "Psiquiatría"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Endoscopía",
+      "Trasplantes",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Terapia Respiratoria"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Tomografía Computarizada (TC)",
+      "Electrocardiograma (ECG)",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Planificación Familiar",
+      "Medición de Signos Vitales",
+      "Atención Dental",
+      "Vacunación",
+      "Control Prenatal",
+      "Educación en Salud"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Suesca",
+    "codigoprestador": 2577200378,
+    "nombre": "E.S.E. HOSPITAL NUESTRA SENORA DEL ROSARIO SUESCA - (257720037801)",
+    "nit": 832011441,
+    "direccion": "CL 9A No. 3-80",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Anestesiología",
+      "Endocrinología",
+      "Medicina Física y Rehabilitación",
+      "Nefrología",
+      "Radiología",
+      "Medicina Familiar y Comunitaria",
+      "Oftalmología"
+    ],
+    "serviciosespecializados": [
+      "Endoscopía",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Educación en Salud",
+      "Vacunación",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Tabio",
+    "codigoprestador": 2578500060,
+    "nombre": "ESE HOSPITAL NUESTRA SEÑORA DEL CARMEN DE TABIO - (257850006001)",
+    "nit": 899999164,
+    "direccion": "CL 3 No. 4-00",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Pediatría",
+      "Urología",
+      "Reumatología",
+      "Gastroenterología",
+      "Radiología"
+    ],
+    "serviciosespecializados": [
+      "Cirugía Mayor",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Densitometría Ósea",
+      "Electrocardiograma (ECG)",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Medición de Signos Vitales",
+      "Desparasitación",
+      "Consultas Generales"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Tausa",
+    "codigoprestador": 2579300131,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO E.S.E. CENTRO DE SALUD DE TAUSA",
+    "nit": 832008321,
+    "direccion": "KR 4 No. 4 - 12",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina del Trabajo",
+      "Oncología",
+      "Ortopedia y Traumatología",
+      "Cardiología",
+      "Medicina Familiar y Comunitaria",
+      "Medicina General",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Laboratorio Clínico",
+      "Tomografía Computarizada (TC)",
+      "Endoscopía",
+      "Espirometría"
+    ],
+    "serviciosofrecidos": [
+      "Chequeos Preventivos",
+      "Atención Dental",
+      "Medición de Signos Vitales",
+      "Vacunación",
+      "Planificación Familiar",
+      "Tamizaje de Enfermedades Crónicas"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Tenjo",
+    "codigoprestador": 2579900056,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SANTA ROSA DE TENJO",
+    "nit": 860037592,
+    "direccion": "Calle 3 No. 6-03",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Medicina Física y Rehabilitación",
+      "Medicina Familiar y Comunitaria",
+      "Dermatología",
+      "Nefrología",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Rehabilitación Cardíaca",
+      "Endoscopía",
+      "Neonatología",
+      "Trasplantes"
+    ],
+    "equipodiagnostico": [
+      "Tomografía Computarizada (TC)",
+      "Ecografía"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Consultas Generales",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Agua De Dios",
+    "codigoprestador": 2500100027,
+    "nombre": "CENTRO DE SALUD JOHAN DE AGUA DE DIOS - (250010002702)",
+    "nit": 890680033,
+    "direccion": "KR 10 CLL 13 ESQUINA",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Hematología",
+      "Cirugía General",
+      "Cardiología"
+    ],
+    "serviciosespecializados": [
+      "Terapia Respiratoria",
+      "Cirugía Mayor",
+      "Medicina Paliativa",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Pruebas de Esfuerzo",
+      "Electroencefalograma (EEG)",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Medición de Signos Vitales",
+      "Control Prenatal",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Fúquene",
+    "codigoprestador": 2528800026,
+    "nombre": "CENTRO DE SALUD DE FUQUENE",
+    "nit": 899999147,
+    "direccion": "CL 7 No. 2-31",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Radiología",
+      "Dermatología",
+      "Ginecología y Obstetricia",
+      "Ortopedia y Traumatología",
+      "Medicina Familiar y Comunitaria",
+      "Reumatología",
+      "Urología"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Litotricia",
+      "Radioterapia"
+    ],
+    "equipodiagnostico": [
+      "Mamografía",
+      "Electroencefalograma (EEG)"
+    ],
+    "serviciosofrecidos": [
+      "Desparasitación",
+      "Brigadas de Desinfección",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Une",
+    "codigoprestador": 2584501896,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO CENTRO DE SALUD TIMOTEO RIVEROS CUBILLOS - (258450189601)",
+    "nit": 900147959,
+    "direccion": "KR 4 No. 1-39",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Endocrinología",
+      "Cardiología",
+      "Nefrología",
+      "Infectología",
+      "Urología",
+      "Oftalmología"
+    ],
+    "serviciosespecializados": [
+      "Geriatría",
+      "Quimioterapia"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Electrocardiograma (ECG)",
+      "Pruebas de Esfuerzo"
+    ],
+    "serviciosofrecidos": [
+      "Educación en Salud",
+      "Medición de Signos Vitales",
+      "Brigadas de Desinfección",
+      "Control Prenatal"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Vergara",
+    "codigoprestador": 2586200054,
+    "nombre": "E.S.E. HOSPITAL SANTA BARBARA DE VERGARA - (258620005401)",
+    "nit": 899999150,
+    "direccion": "VEREDA EL PALMAR",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Baja",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Ortopedia y Traumatología",
+      "Hematología",
+      "Medicina Física y Rehabilitación",
+      "Cirugía General",
+      "Gastroenterología",
+      "Medicina General"
+    ],
+    "serviciosespecializados": [
+      "Quimioterapia",
+      "Neonatología"
+    ],
+    "equipodiagnostico": [
+      "Endoscopía",
+      "Ecografía",
+      "Mamografía"
+    ],
+    "serviciosofrecidos": [
+      "Vacunación",
+      "Educación en Salud",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Vianí",
+    "codigoprestador": 2586701909,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO MERCEDES TELLEZ DE PRADILLA (E.S.E.) HOSPITAL VIANI PRIMER NIVEL DE ATENCION - (258670190901)",
+    "nit": 900094475,
+    "direccion": "KR 7 No.2-52",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Oftalmología",
+      "Hematología",
+      "Ginecología y Obstetricia",
+      "Urología",
+      "Anestesiología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Trasplantes",
+      "Terapia Respiratoria",
+      "Rehabilitación Cardíaca"
+    ],
+    "equipodiagnostico": [
+      "Laboratorio Clínico",
+      "Espirometría",
+      "Densitometría Ósea"
+    ],
+    "serviciosofrecidos": [
+      "Control Prenatal",
+      "Planificación Familiar",
+      "Consultas Generales",
+      "Tamizaje de Enfermedades Crónicas",
+      "Chequeos Preventivos"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "La Peña",
+    "codigoprestador": 2539800032,
+    "nombre": "CENTRO DE SALUD LA PEÑA - (253980003203)",
+    "nit": 860015929,
+    "direccion": "CENTRO",
+    "nivelcomplejidad": 1,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Alta",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Reumatología",
+      "Neurología",
+      "Medicina Física y Rehabilitación",
+      "Hematología"
+    ],
+    "serviciosespecializados": [
+      "Diálisis",
+      "Medicina Paliativa",
+      "Unidad de Cuidados Intensivos (UCI)",
+      "Endoscopía",
+      "Litotricia"
+    ],
+    "equipodiagnostico": [
+      "Rayos X",
+      "Resonancia Magnética (RM)"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Brigadas de Desinfección",
+      "Medición de Signos Vitales",
+      "Vacunación",
+      "Planificación Familiar"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Viotá",
+    "codigoprestador": 2587800041,
+    "nombre": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN FRANCISCO DE VIOTA",
+    "nit": 890680032,
+    "direccion": "CALLE 17 No. 15-186/256",
+    "nivelcomplejidad": 1,
+    "caracter": "Municipal",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "Hospital",
+    "especialidades": [
+      "Psiquiatría",
+      "Ortopedia y Traumatología",
+      "Medicina Familiar y Comunitaria",
+      "Neurología",
+      "Cardiología"
+    ],
+    "serviciosespecializados": [
+      "Neonatología",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Espirometría",
+      "Tomografía Computarizada (TC)",
+      "Ecografía",
+      "Rayos X"
+    ],
+    "serviciosofrecidos": [
+      "Consultas Generales",
+      "Medición de Signos Vitales",
+      "Planificación Familiar",
+      "Desparasitación"
+    ]
+  },
+  {
+    "departamento": "Cundinamarca",
+    "ciudad": "Cogua",
+    "codigoprestador": 2520002990,
+    "nombre": "ESE HOSPITAL UNIVERSITARIO DE LA SAMARITANA - CENTRO DE SALUD COGUA",
+    "nit": 899999032,
+    "direccion": "CL 4 KR 2 N ESQUINA",
+    "nivelcomplejidad": 2,
+    "caracter": "Departamental",
+    "disponibilidad": "Disponible",
+    "descripcion": "Sin descripción",
+    "estadoemergencia": "Normal",
+    "prioridad": "Media",
+    "tipo": "PuestoSalud",
+    "especialidades": [
+      "Medicina Familiar y Comunitaria",
+      "Medicina General",
+      "Ginecología y Obstetricia",
+      "Endocrinología"
+    ],
+    "serviciosespecializados": [
+      "Radioterapia",
+      "Diálisis",
+      "Terapia Respiratoria",
+      "Cirugía Mayor"
+    ],
+    "equipodiagnostico": [
+      "Electroencefalograma (EEG)",
+      "Laboratorio Clínico"
+    ],
+    "serviciosofrecidos": [
+      "Atención Dental",
+      "Educación en Salud",
+      "Vacunación",
+      "Planificación Familiar"
+    ]
+  }
+]
