@@ -36,21 +36,26 @@ const menuConfig: Record<"Administrador" | "ServicioSalud" | "Usuario" | "Invita
   Administrador: [
     { name: "Dashboard", link: "/dashboardAdmin", icon: <DashboardIcon /> },
     { name: "Califica el servicio", link: "/calificaServicio", icon: <FaPenAlt /> },
+    { name: "Reportes Comunidad", link: "/reporteUsuario", icon: <ReportIcon /> },
+    { name: "Análisis demanda", link: "/prediccionDemanda", icon: <ReportIcon /> },
 
   ],
   ServicioSalud: [
     { name: "Dashboard", link: "/dashboardService", icon: <DashboardIcon /> },
     { name: "Califica el servicio", link: "/calificaServicio", icon: <FaPenAlt /> },
+    { name: "Reportes Comunidad", link: "/reporteUsuario", icon: <ReportIcon /> },
+    { name: "Análisis demanda", link: "/prediccionDemanda", icon: <ReportIcon /> },
 
   ],
   Usuario: [
     { name: "Califica el servicio", link: "/calificaServicio", icon: <FaPenAlt /> },
-    { name: "Dashboard", link: "/dashboard", icon: <DashboardIcon /> },
-    { name: "Reportes Comunidad", link: "/dashboard/reportes", icon: <ReportIcon /> },
+    { name: "Reportes Comunidad", link: "/reporteUsuario", icon: <ReportIcon /> },
+    { name: "Análisis demanda", link: "/prediccionDemanda", icon: <ReportIcon /> },
   ],
   Invitado: [
     { name: "Explorar Servicios", link: "/servicios", icon: <LocalHospitalIcon /> },
-  ],
+    { name: "Reportes Comunidad", link: "/reporteUsuario", icon: <ReportIcon /> },
+    { name: "Análisis demanda", link: "/prediccionDemanda", icon: <ReportIcon /> },]
 };
 
 export const SideBar: React.FC<SideBarProps> = ({ open, toggleDrawer }) => {
