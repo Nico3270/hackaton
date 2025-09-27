@@ -2,18 +2,17 @@
 'use client';
 
 import React, { useState, useTransition } from 'react';
-import { Loader2 } from 'lucide-react'; // Cambiado a lucide-react
+import { Loader2 } from 'lucide-react';
+import Link from 'next/link';
 import { getResumenServicios } from '@/visualizacion/actions/servicios';
 import { Card, CardContent } from '@/ui/components/not-found/card';
 import ResumenDashboard from '@/visualizacion/componentes/ResumenDashboard';
-
 
 export default function InicioPage() {
   const [data, setData] = useState<Awaited<ReturnType<typeof getResumenServicios>> | null>(null);
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
 
-  // Cargar datos al montar
   React.useEffect(() => {
     startTransition(async () => {
       try {
@@ -30,7 +29,7 @@ export default function InicioPage() {
     <div className="container mx-auto mt-20 p-4 min-h-screen bg-gray-50">
       {isPending && (
         <div className="flex justify-center items-center h-64">
-          <Loader2 className="h-8 w-8 animate-spin text-blue-400" /> {/* Ajustado a color claro */}
+          <Loader2 className="h-8 w-8 animate-spin text-blue-400" />
         </div>
       )}
       {error && (
@@ -40,6 +39,19 @@ export default function InicioPage() {
           </CardContent>
         </Card>
       )}
+
+      {/* 🚀 Botón premium centrado */}
+      <div className="flex justify-center mb-8">
+        <Link
+          href="/calificaServicio"
+          className="px-8 py-3 rounded-full bg-gradient-to-r from-gray-900 to-gray-800 
+                     text-white font-semibold shadow-md hover:shadow-xl transition-all 
+                     duration-300 hover:scale-105 active:scale-95"
+        >
+          Ver listado de Servicios de salud
+        </Link>
+      </div>
+
       {data && !isPending && (
         <ResumenDashboard
           totalServicios={data.totalServicios}

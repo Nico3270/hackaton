@@ -10,6 +10,6 @@ export const getServicioById = async (id: string) => {
     });
     return servicio ? { ok: true, servicio } : { ok: false, message: "Servicio no encontrado" };
   } catch (error) {
-    return { ok: false, message: "Error al obtener el servicio" };
+    return { ok: false, message: `Error al obtener el servicio ${error}` };
   }
 };

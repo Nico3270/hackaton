@@ -54,19 +54,7 @@ export const TopMenu = () => {
             >
               Califica el Servicio
             </Link>
-            <Link
-              href=""
-              className="
-                text-gray-700 text-lg font-medium 
-                hover:text-blue-600 
-                transition-colors duration-200 
-                px-4 py-2 rounded-lg 
-                hover:bg-gray-100 
-                hover:shadow-sm
-              "
-            >
-              Sección 2
-            </Link>
+            
             <button
               onClick={() => setIsDrawerOpen(true)}
               className="

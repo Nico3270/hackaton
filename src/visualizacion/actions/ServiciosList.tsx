@@ -1,4 +1,3 @@
-
 'use client';
 
 import Link from 'next/link';
@@ -33,22 +32,28 @@ function DepartamentoServicios({ titulo, servicios }: DepartamentoServiciosProps
               key={servicio.id}
               className="flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:shadow-md transition-shadow"
             >
-              <span className="text-sm font-medium text-gray-900 max-w-[60%] truncate">
+              {/* Título como link */}
+              <Link
+                href={`/servicio/${servicio.id}`}
+                className="text-sm font-medium text-gray-900 max-w-[60%] truncate hover:text-blue-600 transition-colors"
+              >
                 {servicio.nombre}
-              </span>
-              <div className="flex items-center space-x-4">
+              </Link>
+
+              {/* Acciones */}
+              <div className="flex items-center space-x-6">
                 <Link
                   href={`/calificaServicio/${servicio.id}`}
-                  className="flex flex-col items-center text-blue-600 hover:text-blue-700 transition"
+                  className="flex flex-col items-center text-blue-600 hover:text-blue-700 hover:scale-110 transition-transform"
                 >
-                  <FiStar className="text-lg" />
+                  <FiStar className="text-xl" />
                   <span className="text-[11px] font-medium">Calificar</span>
                 </Link>
                 <Link
                   href={`/servicio/${servicio.id}`}
-                  className="flex flex-col items-center text-gray-600 hover:text-gray-800 transition"
+                  className="flex flex-col items-center text-gray-600 hover:text-gray-800 hover:scale-110 transition-transform"
                 >
-                  <FiInfo className="text-lg" />
+                  <FiInfo className="text-xl" />
                   <span className="text-[11px] font-medium">Ver Info</span>
                 </Link>
               </div>
@@ -90,4 +95,3 @@ export default function ServiciosList({ servicios: initialServicios }: Servicios
     </>
   );
 }
-

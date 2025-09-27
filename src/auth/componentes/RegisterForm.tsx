@@ -105,18 +105,23 @@ export const RegisterForm = () => {
   };
 
   const handleGoogleRegister = async () => {
-    try {
-      setIsPending(true);
-      const response = await signIn("google", { redirect: true });
-      if (response?.error) {
-        setErrorMessage("No se pudo completar el inicio de sesión con Google");
-        setIsPending(false);
-      }
-    } catch {
+  try {
+    setIsPending(true);
+    const response = await signIn("google", { redirect: false });
+
+    if (response?.error) {
       setErrorMessage("No se pudo completar el inicio de sesión con Google");
       setIsPending(false);
+    } else {
+      // Si todo va bien, redirige
+      window.location.replace("/");
     }
-  };
+  } catch {
+    setErrorMessage("No se pudo completar el inicio de sesión con Google");
+    setIsPending(false);
+  }
+};
+
 
   return (
     <Fade in timeout={600}>

@@ -1,3 +1,4 @@
+
 "use server";
 
 import prisma from "@/lib/prisma";
@@ -23,10 +24,13 @@ interface CrearReporteData {
 interface CrearReporteResult {
   ok: boolean;
   message: string;
-  reporte?: Prisma.ReporteComunidadGetPayload<{}>;
+  reporte?: Prisma.ReporteComunidadGetPayload<true>;
 }
 
-export const crearReporteComunidad = async (data: CrearReporteData, usuarioIdProp?: string): Promise<CrearReporteResult> => {
+export const crearReporteComunidad = async (
+  data: CrearReporteData,
+  usuarioIdProp?: string
+): Promise<CrearReporteResult> => {
   const session = await auth();
   const usuarioId = usuarioIdProp || session?.user?.id || undefined;
 
@@ -37,7 +41,10 @@ export const crearReporteComunidad = async (data: CrearReporteData, usuarioIdPro
   if (data.ratingSatisfaccion && (data.ratingSatisfaccion < 1 || data.ratingSatisfaccion > 5)) {
     return { ok: false, message: "El rating de satisfacción debe estar entre 1 y 5." };
   }
-  if ((data.motivoVisita === "ReportarSintomas" || data.motivoVisita === "ReportarEnfermedad") && data.sintomas.length === 0) {
+  if (
+    (data.motivoVisita === "ReportarSintomas" || data.motivoVisita === "ReportarEnfermedad") &&
+    data.sintomas.length === 0
+  ) {
     return { ok: false, message: "Debes seleccionar al menos un síntoma para este motivo de visita." };
   }
 
@@ -80,6 +87,11 @@ export const crearReporteComunidad = async (data: CrearReporteData, usuarioIdPro
     return { ok: true, message: "Reporte creado exitosamente.", reporte };
   } catch (error) {
     console.error("Error al crear el reporte:", error);
-    return { ok: false, message: `Error al procesar el reporte: ${error instanceof Error ? error.message : "Error desconocido."}` };
+    return {
+      ok: false,
+      message: `Error al procesar el reporte: ${
+        error instanceof Error ? error.message : "Error desconocido."
+      }`,
+    };
   }
 };

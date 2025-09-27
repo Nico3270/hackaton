@@ -1,8 +1,7 @@
 "use server";
 
-
 import { z } from "zod";
-import { Prisma, AspectoMejorar } from "@prisma/client";
+import { Prisma, AspectoMejorar, ValoracionSatisfaccion } from "@prisma/client";
 import prisma from "@/lib/prisma";
 
 // Schema de validación para params
@@ -70,7 +69,10 @@ export interface ServicioDashboardData {
   reportes: {
     count: number;
     avgRating: number | null;
-    topAspectos: AspectoMejorar[]; // Cambiado de string[] a AspectoMejorar[]
+    avgTiempoEspera: number | null; // Promedio de tiempo de espera
+    porcentajeRecomendacion: number | null; // % que recomienda el servicio
+    calidadAtencionDist: Record<ValoracionSatisfaccion, number>; // Distribución de calidad
+    topAspectos: AspectoMejorar[];
     data: ReporteComunidadSelect[];
   };
   demandas: {
@@ -126,6 +128,8 @@ export async function getServicioDashboard(id: string): Promise<ServicioDashboar
     }
 
     const reportesCount = servicio.reportesComunidad.length;
+
+    // Promedio de ratingSatisfaccion
     const avgRating =
       reportesCount > 0
         ? servicio.reportesComunidad.reduce(
@@ -133,6 +137,34 @@ export async function getServicioDashboard(id: string): Promise<ServicioDashboar
             0,
           ) / reportesCount
         : null;
+
+    // Promedio de tiempoEspera
+    const tiemposValidos = servicio.reportesComunidad.filter((r) => r.tiempoEspera != null);
+    const avgTiempoEspera =
+      tiemposValidos.length > 0
+        ? tiemposValidos.reduce((sum, r) => sum + (r.tiempoEspera || 0), 0) / tiemposValidos.length
+        : null;
+
+    // Porcentaje de recomendación
+    const recomendacionesValidas = servicio.reportesComunidad.filter((r) => r.recomendarServicio != null);
+    const porcentajeRecomendacion =
+      recomendacionesValidas.length > 0
+        ? (recomendacionesValidas.filter((r) => r.recomendarServicio).length / recomendacionesValidas.length) * 100
+        : null;
+
+    // Distribución de calidadAtencion
+    const calidadAtencionDist: Record<ValoracionSatisfaccion, number> = {
+      MuyInsatisfecho: 0,
+      Insatisfecho: 0,
+      Neutral: 0,
+      Satisfecho: 0,
+      MuySatisfecho: 0,
+    };
+    servicio.reportesComunidad.forEach((r) => {
+      if (r.calidadAtencion) {
+        calidadAtencionDist[r.calidadAtencion]++;
+      }
+    });
 
     // Top 3 aspectos a mejorar
     const aspectosMap = new Map<AspectoMejorar, number>();
@@ -149,8 +181,7 @@ export async function getServicioDashboard(id: string): Promise<ServicioDashboar
     const demandasCount = servicio.registrosDemanda.length;
     const avgAtenciones =
       demandasCount > 0
-        ? servicio.registrosDemanda.reduce((sum, d) => sum + d.atenciones, 0) /
-          demandasCount
+        ? servicio.registrosDemanda.reduce((sum, d) => sum + d.atenciones, 0) / demandasCount
         : null;
 
     return {
@@ -158,6 +189,9 @@ export async function getServicioDashboard(id: string): Promise<ServicioDashboar
       reportes: {
         count: reportesCount,
         avgRating,
+        avgTiempoEspera,
+        porcentajeRecomendacion,
+        calidadAtencionDist,
         topAspectos,
         data: servicio.reportesComunidad,
       },

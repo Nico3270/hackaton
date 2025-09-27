@@ -1,5 +1,5 @@
 
-import { MapPin, Hospital, Stethoscope, Users, Bed } from "lucide-react"; // Iconos de lucide-react
+import { Hospital, Stethoscope, Users, Bed } from "lucide-react"; // Iconos de lucide-react
 import { cn } from "@/lib/utils"; // Utilidad para combinar clases Tailwind (crea si no existe)
 import { ServicioDashboardData } from "../actions/servicios";
 
@@ -15,10 +15,11 @@ export function InformacionGeneral({ servicio }: InformacionGeneralProps) {
     : null;
 
   return (
-    <div className="bg-gray-50 min-h-screen p-6 md:p-8">
-      <div className="max-w-4xl mx-auto space-y-6">
+    <div className="bg-gray-50 min-h-fit p-6 md:p-8 mt-20">
+      <div className="max-w-4xl mx-auto space-y-2">
         {/* Encabezado */}
         <div className="text-center">
+          
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
             {servicio.nombre}
           </h1>
@@ -35,20 +36,7 @@ export function InformacionGeneral({ servicio }: InformacionGeneralProps) {
         {/* Grid de tarjetas */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Tarjeta de Ubicación */}
-          <div className="bg-white rounded-2xl shadow-sm p-6 border border-gray-100">
-            <div className="flex items-center space-x-2 mb-4">
-              <MapPin className="h-6 w-6 text-blue-600" />
-              <h2 className="text-xl font-semibold text-gray-800">Ubicación</h2>
-            </div>
-            <p className="text-gray-600">{servicio.direccion}</p>
-            <p className="text-gray-500 text-sm mt-1">
-              {servicio.ciudad}, {servicio.departamento}
-            </p>
-            {/* Placeholder para mapa */}
-            <div className="mt-4 h-48 bg-gray-100 rounded-lg flex items-center justify-center">
-              <p className="text-gray-500">Mapa interactivo (pendiente)</p>
-            </div>
-          </div>
+         
 
           {/* Tarjeta de Disponibilidad */}
           <div className="bg-white rounded-2xl shadow-sm p-6 border border-gray-100">
