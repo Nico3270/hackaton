@@ -38,6 +38,7 @@
     "class-variance-authority": "^0.7.1",
     "cloudinary": "^2.5.1",
     "clsx": "^2.1.1",
+    "d3": "^7.9.0",
     "date-fns": "^4.1.0",
     "framer-motion": "^12.23.22",
     "google-auth-library": "^9.15.1",

@@ -18,6 +18,7 @@ import ReportIcon from "@mui/icons-material/Report";
 import { useSession, signIn, signOut } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaPenAlt } from "react-icons/fa";
 
 interface SideBarProps {
   open: boolean;
@@ -34,13 +35,16 @@ type MenuItem = {
 const menuConfig: Record<"Administrador" | "ServicioSalud" | "Usuario" | "Invitado", MenuItem[]> = {
   Administrador: [
     { name: "Dashboard", link: "/dashboardAdmin", icon: <DashboardIcon /> },
+    { name: "Califica el servicio", link: "/calificaServicio", icon: <FaPenAlt /> },
 
   ],
   ServicioSalud: [
     { name: "Dashboard", link: "/dashboardService", icon: <DashboardIcon /> },
+    { name: "Califica el servicio", link: "/calificaServicio", icon: <FaPenAlt /> },
 
   ],
   Usuario: [
+    { name: "Califica el servicio", link: "/calificaServicio", icon: <FaPenAlt /> },
     { name: "Dashboard", link: "/dashboard", icon: <DashboardIcon /> },
     { name: "Reportes Comunidad", link: "/dashboard/reportes", icon: <ReportIcon /> },
   ],

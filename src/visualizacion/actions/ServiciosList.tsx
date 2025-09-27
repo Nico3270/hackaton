@@ -45,7 +45,7 @@ function DepartamentoServicios({ titulo, servicios }: DepartamentoServiciosProps
                   <span className="text-[11px] font-medium">Calificar</span>
                 </Link>
                 <Link
-                  href={`/ver/${servicio.id}`}
+                  href={`/servicio/${servicio.id}`}
                   className="flex flex-col items-center text-gray-600 hover:text-gray-800 transition"
                 >
                   <FiInfo className="text-lg" />

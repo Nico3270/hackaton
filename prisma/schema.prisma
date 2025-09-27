@@ -63,15 +63,6 @@ enum Role {
   Invitado
 }
 
-enum TipoReporte {
-  SintomasFrecuentes
-  DisponibilidadCampana
-  EncuestaSatisfaccion
-  Enfermedades
-  CitaControl
-  SolicitudCita
-}
-
 enum ValoracionSatisfaccion {
   MuyInsatisfecho
   Insatisfecho
@@ -95,35 +86,35 @@ enum SatisfaccionGeneral {
 
 // Modelos de Servicios de Salud
 model ServicioSalud {
-  id                        String               @id @default(uuid())
-  tipo                      TipoServicio
-  nombre                    String
-  nit                       String               @unique
-  disponibilidad            Disponibilidad
-  codigoPrestador           String               @unique
-  direccion                 String
-  departamento              String
-  ciudad                    String
-  caracter                  TipoCaracter
-  descripcion               String?
-  estadoEmergencia          EstadoEmergencia?
-  prioridad                 Prioridad?
-  capacidadDiaria           Int?
-  especialidades            String[]             // Corregido: Lista no opcional
-  personalMedico            Int?
-  nivelComplejidad          NivelComplejidad?
-  camasDisponibles          Int?
-  camasTotales              Int?
-  capacidadEstimada         Int?
-  serviciosEspecializados   String[]             // Corregido: Lista no opcional
-  equipoDiagnostico         String[]            // Corregido: Lista no opcional
-  contactoEmergencia        String?
-  serviciosOfrecidos        String[]             // Corregido: Lista no opcional
-  registrosDemanda          RegistroDemanda[]
-  reportesComunidad         ReporteComunidad[]
-  registrosConsulta         RegistroConsulta[]
-  fechaCreacion             DateTime             @default(now())
-  fechaActualizacion        DateTime             @updatedAt
+  id                      String             @id @default(uuid())
+  tipo                    TipoServicio
+  nombre                  String
+  nit                     String             @unique
+  disponibilidad          Disponibilidad
+  codigoPrestador         String             @unique
+  direccion               String
+  departamento            String
+  ciudad                  String
+  caracter                TipoCaracter
+  descripcion             String?
+  estadoEmergencia        EstadoEmergencia?
+  prioridad               Prioridad?
+  capacidadDiaria         Int?
+  especialidades          String[] // Corregido: Lista no opcional
+  personalMedico          Int?
+  nivelComplejidad        NivelComplejidad?
+  camasDisponibles        Int?
+  camasTotales            Int?
+  capacidadEstimada       Int?
+  serviciosEspecializados String[] // Corregido: Lista no opcional
+  equipoDiagnostico       String[] // Corregido: Lista no opcional
+  contactoEmergencia      String?
+  serviciosOfrecidos      String[] // Corregido: Lista no opcional
+  registrosDemanda        RegistroDemanda[]
+  reportesComunidad       ReporteComunidad[]
+  registrosConsulta       RegistroConsulta[]
+  fechaCreacion           DateTime           @default(now())
+  fechaActualizacion      DateTime           @updatedAt
 
   @@index([departamento, ciudad])
   @@index([tipo])
@@ -134,92 +125,112 @@ model ServicioSalud {
 
 // Modelos de Reporte de Servicios de Salud
 model RegistroDemanda {
-  id                String             @id @default(uuid())
-  servicioId        String
-  servicio          ServicioSalud      @relation(fields: [servicioId], references: [id], onDelete: Cascade)
-  fecha             DateTime
-  atenciones        Int
-  demandaEstimada   Float?
-  factorEstacional  FactorEstacional
-  tiposDemanda      String[]           // Corregido: String[] flexible
-  notas             String?
-  fechaCreacion     DateTime           @default(now())
+  id               String           @id @default(uuid())
+  servicioId       String
+  servicio         ServicioSalud    @relation(fields: [servicioId], references: [id], onDelete: Cascade)
+  fecha            DateTime
+  atenciones       Int
+  demandaEstimada  Float?
+  factorEstacional FactorEstacional
+  tiposDemanda     String[] // Corregido: String[] flexible
+  notas            String?
+  fechaCreacion    DateTime         @default(now())
 
+  @@unique([servicioId, fecha])
   @@index([servicioId])
   @@index([fecha])
   @@index([servicioId, fecha])
   @@index([factorEstacional])
-  @@unique([servicioId, fecha])
 }
-
-
 
 // Modelos de Usuarios
 model Usuario {
-  id                   String             @id @default(uuid())
-  nombre               String
-  apellido             String
-  contraseña     String
-  email           String        @unique
-  departamento         String
-  ciudad               String
-  fechaNacimiento      DateTime
-  emailVerified   DateTime?
-  role                 Role               @default(Usuario)
-  fechaCreacion        DateTime           @default(now())
-  fechaActualizacion   DateTime           @updatedAt
-  reportesComunidad    ReporteComunidad[]
-  registrosConsulta    RegistroConsulta[]
+  id                 String             @id @default(uuid())
+  nombre             String
+  apellido           String
+  contraseña        String
+  email              String             @unique
+  departamento       String
+  ciudad             String
+  fechaNacimiento    DateTime
+  emailVerified      DateTime?
+  role               Role               @default(Usuario)
+  fechaCreacion      DateTime           @default(now())
+  fechaActualizacion DateTime           @updatedAt
+  reportesComunidad  ReporteComunidad[]
+  registrosConsulta  RegistroConsulta[]
 
   @@index([email])
   @@index([departamento, ciudad])
 }
 
+enum MotivoVisita {
+  ReportarSintomas
+  ReportarEnfermedad
+  CitaControl
+  SolicitudCita
+  EvaluacionServicio
+  ReclamarMedicamentos
+  
+}
+
+enum AspectoMejorar {
+  TiempoEspera
+  AmabilidadPersonal
+  DisponibilidadCitas
+  Infraestructura
+  CalidadDiagnostico
+  Otros
+}
+
 model ReporteComunidad {
-  id                    String                  @id @default(uuid())
-  tipo                  TipoReporte
-  ciudad                String
-  departamento          String?
-  sintomas              String[]                // Corregido: Lista no opcional
-  frecuenciaSintomas    FrecuenciaSintomas?
-  duracionSintomasDias  Int?
-  descripcion           String?
-  disponibilidad        String?
-  email                 String?
-  fecha                 DateTime                @default(now())
-  aprobado              Boolean                 @default(false)
-  servicioId            String?
-  servicio              ServicioSalud?          @relation(fields: [servicioId], references: [id], onDelete: SetNull)
-  valoracion            ValoracionSatisfaccion?
-  tiempoEspera          Int?
-  sintomasPostAtencion  String[]                // Corregido: Lista no opcional
-  satisfaccionGeneral   SatisfaccionGeneral?
-  usuarioId             String?
-  usuario               Usuario?                @relation(fields: [usuarioId], references: [id], onDelete: SetNull)
+  id                   String                  @id @default(uuid())
+  motivoVisita         MotivoVisita // Cambiado de tipo a motivoVisita
+  ciudad               String
+  departamento         String?
+  descripcion          String?
+  disponibilidad       Disponibilidad?
+  email                String?
+  fecha                DateTime                @default(now())
+  aprobado             Boolean                 @default(false)
+  servicioId           String?
+  servicio             ServicioSalud?          @relation(fields: [servicioId], references: [id], onDelete: SetNull)
+  ratingSatisfaccion   Int? // Escala 1-5, disponible para todos los motivos
+  recomendarServicio   Boolean? // NPS-like, disponible para todos
+  calidadAtencion      ValoracionSatisfaccion? // Enum para calidad, disponible para todos
+  tiempoEspera         Int? // Métricas operativas, disponible para todos
+  aspectosMejorar      AspectoMejorar[]        @default([]) // Tags estructurados, disponible para todos
+  sintomas             String[]                @default([]) // Para ReportarSintomas, ReportarEnfermedad
+  frecuenciaSintomas   FrecuenciaSintomas? // Para ReportarSintomas, ReportarEnfermedad
+  duracionSintomasDias Int? // Para ReportarSintomas, ReportarEnfermedad
+  usuarioId            String?
+  usuario              Usuario?                @relation(fields: [usuarioId], references: [id], onDelete: SetNull)
 
   @@index([ciudad])
   @@index([fecha])
-  @@index([tipo, aprobado])
-  @@index([tipo])
+  @@index([motivoVisita, aprobado]) // Actualizado
+  @@index([motivoVisita]) // Actualizado
   @@index([servicioId])
-  @@index([valoracion])
+  @@index([ratingSatisfaccion])
+  @@index([servicioId, ratingSatisfaccion])
+  @@index([ciudad, motivoVisita]) // Actualizado
   @@index([usuarioId])
   @@index([email])
 }
 
 model RegistroConsulta {
-  id            String         @id @default(uuid())
+  id            String        @id @default(uuid())
   usuarioId     String
-  usuario       Usuario        @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  usuario       Usuario       @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
   servicioId    String
-  servicio      ServicioSalud  @relation(fields: [servicioId], references: [id], onDelete: Cascade)
+  servicio      ServicioSalud @relation(fields: [servicioId], references: [id], onDelete: Cascade)
   fecha         DateTime
-  tiposDemanda  String[]       // Corregido: String[] flexible
+  tiposDemanda  String[] // Corregido: String[] flexible
   notas         String?
-  fechaCreacion DateTime       @default(now())
+  fechaCreacion DateTime      @default(now())
 
+  @@unique([usuarioId, servicioId, fecha])
   @@index([usuarioId])
   @@index([servicioId])
   @@index([fecha])
-  @@unique([usuarioId, servicioId, fecha])
 }
