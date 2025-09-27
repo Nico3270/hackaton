@@ -1,42 +1,48 @@
 
 
 // Información general de la aplicación
-export const APP_Nombre = "MagiSurprise";
-export const App_Nombre1 = "MagiSurprise";
-export const App_Nombre2 = "MagiSurprise";
+// Información general de la aplicación - Adaptada para la Plataforma Social-Comercial Hackathon Salud
+export const APP_Nombre = "Hackathon Salud";
+export const App_Nombre1 = "Hackathon Salud";
+export const App_Nombre2 = "Hackathon Salud";
+
 export const InfoEmpresa = {
-  nombreCompleto: "MagiSurprise",
-  direccion: "Cra 9A # 7 -03, Tunja - Colombia",
-  iframeGoogleMaps : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.394594074716!2d-73.37225322535299!3d5.508293434128291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a7de1c1eac06f%3A0xcbfdc6875cf68173!2sCra.%209A%20%237-14%2C%20Tunja%2C%20Boyac%C3%A1!5e0!3m2!1sen!2sco!4v1732853148670!5m2!1sen!2sco",
+  nombreCompleto: "Hackathon Salud - Plataforma Social para Negocios y Profesionales",
+  direccion: "Cra 9A # 7-03, Tunja - Boyacá, Colombia", // Dirección base para el equipo de desarrollo/hackathon
+  iframeGoogleMaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.394594074716!2d-73.37225322535299!3d5.508293434128291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a7de1c1eac06f%3A0xcbfdc6875cf68173!2sCra.%209A%20%237-14%2C%20Tunja%2C%20Boyac%C3%A1!5e0!3m2!1ses!2sco!4v1732853148670!5m2!1ses!2sco", // Mapa de Tunja, adaptable a ubicaciones de negocios
   nombreCorto: {
-    parte1: "MagiSurprise",
-    parte2: ""
+    parte1: "Hackathon Salud",
+    parte2: "Negocios Conectados" // Subtítulo para perfiles y headers
   },
-  telefono:"3132390868",
-  email: "magisurprisetunja@gmail.com", 
-  website: "https://magisurprise.com",
-  horarios: {lunes_viernes: "8:00 - 12:00 y de 2:00 - 6:00", sabados: "9:00 - 12:00 y de 2:00 - 5:00", domingos:" No atendemos"},
-  nit: "900123456-7",
-  urlInstagram: "/",
-  urlFacebook: "/",
-  urlTiktok: "/",
-  titulo:"MagiSurprise – Regalos Exclusivos y Creativos", //Importante para SEO con SEO
-  descripcion: "Regalos mágicos y personalizados para cada ocasión. En MagiSurprise, hacemos que cada detalle sea especial con entrega rápida. ¡Descubre más!", // Entre 120 - 160 caracteres
-  keywords: "regalos personalizados, detalles sorpresa, desayunos sorpresa, experiencias únicas, regalos creativos, regalos personalizados a domicilio, detalles para aniversarios, desayunos sorpresa para cumpleaños, entrega rápida de regalos, detalles especiales para San Valentín, obsequios personalizados para bodas, regalos express, detalles sorpresa para Navidad, regalos para fechas especiales, desayunos sorpresa a domicilio, detalles únicos y personalizados, sorpresas de última hora, regalos originales para aniversarios, compra de regalos personalizados, experiencias inolvidables con entrega rápida,regalos personalizados en Tunja, detalles sorpresa en Tunja, desayunos sorpresa en Tunja, experiencias únicas en Tunja, regalos creativos Tunja, regalos personalizados a domicilio en Tunja, detalles para aniversarios en Tunja, desayunos sorpresa para cumpleaños en Tunja, entrega rápida de regalos en Tunja, detalles especiales para San Valentín Tunja, obsequios personalizados para bodas en Tunja, regalos express Tunja, detalles sorpresa para Navidad en Tunja, regalos para fechas especiales en Tunja, desayunos sorpresa a domicilio en Tunja, detalles únicos y personalizados en Tunja, sorpresas de última hora en Tunja, regalos originales para aniversarios en Tunja, compra de regalos personalizados en Tunja, experiencias inolvidables con entrega rápida en Tunja ",
+  telefono: "313-239-0868", // Teléfono de soporte/contacto general
+  email: "soporte@Hackathon Salud.co", // Email institucional
+  website: "https://Hackathon Salud.co", // Dominio ficticio para producción; en hackathon, usa localhost o Vercel
+  horarios: {
+    lunes_viernes: "Plataforma 24/7 - Soporte: 8:00 - 18:00",
+    sabados: "Plataforma 24/7 - Soporte: 9:00 - 15:00",
+    domingos: "Plataforma 24/7 - Soporte cerrado"
+  }, // Enfocado en disponibilidad digital, con soporte humano
+  nit: "900.123.456-7", // NIT ficticio para simulación
+  urlInstagram: "https://instagram.com/Hackathon Salud.co", // Placeholder para redes de la plataforma
+  urlFacebook: "https://facebook.com/Hackathon Salud.co",
+  urlTiktok: "https://tiktok.com/@Hackathon Salud.co",
+  titulo: "Hackathon Salud – Plataforma Social-Comercial para Emprendedores y Profesionales Locales", // SEO optimizado: enfocado en hackathon y features clave
+  descripcion: "Conecta tu negocio con clientes locales en Hackathon Salud. Crea perfiles profesionales, catálogos interactivos, reseñas multimedia y feeds sociales. Ideal para pequeños emprendimientos y profesionales independientes en Colombia. ¡Regístrate gratis y crece tu visibilidad digital!", // 150 caracteres aprox., con keywords del proyecto
+  keywords: "plataforma social negocios, catálogo productos locales, reseñas multimedia, perfiles profesionales, emprendedores independientes, comercios Tunja, agenda citas servicios, feed publicaciones negocios, monetización freemium, QR perfiles negocios, WhatsApp contacto directo, hackathon plataforma digital, redes sociales emprendedores, vitrina interactiva negocios, testimonios productos, agenda profesionales Tunja, promociones locales, visibilidad digital pequeños negocios, reseñas videos productos, comunidad comercial Colombia", // Keywords adaptados: incluye términos del proyecto y locales para SEO
   imagenesPlaceholder: {
-    domicilio: "/imgs/domicilio.webp",
-    emptyCart : "/imgs/empty_cart.webp",
-    notfound: "/imgs/image_not_found.webp",
-    imagenRepresentativa:"/imgs/logo final-1.png",
-    loginPage: "/imgs/logo final-1.png",
-    logoEmpresa : "/imgs/logo final-1.png",
-    noAutorizado: "/imgs/no_autorizado.webp",
-    registerPage: "/imgs/logo final-1.png",
-    imagenCarroVacio: "/imgs/empty_cart.webp",
-    imagenTiendaContacto: "/imgs/tienda_contacto.webp",
+    domicilio: "/imgs/domicilio-negocio.webp", // Imagen de entrega/contacto para negocios
+    emptyCart: "/imgs/catalogo-vacio.webp", // Placeholder para catálogos vacíos
+    notfound: "/imgs/perfil-no-encontrado.webp", // Para perfiles o productos no encontrados
+    imagenRepresentativa: "/imgs/logo-Hackathon Salud.png", // Logo principal de la plataforma
+    loginPage: "/imgs/login-negocios.png", // Imagen de fondo para login de negocios
+    logoEmpresa: "/imgs/logo-Hackathon Salud.png", // Logo para headers de perfiles
+    noAutorizado: "/imgs/acceso-denegado-negocio.webp", // Para accesos restringidos en perfiles
+    registerPage: "/imgs/registro-emprendedores.png", // Fondo para registro de negocios
+    imagenCarroVacio: "/imgs/catalogo-vacio.webp", // Para grids de productos vacíos
+    imagenTiendaContacto: "/imgs/contacto-negocios.webp" // Imagen para secciones de contacto
   },
-  linkWebProduccion: "https://magisurprise.com"
-}
+  linkWebProduccion: "https://Hackathon Salud.co" // Enlace de producción; en desarrollo, apunta a tu repo de hackathon
+};
 
 // Barra de navegación principal e inferior
 export const TopMenuConfig = {
