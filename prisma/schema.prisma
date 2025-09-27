@@ -110,6 +110,9 @@ model ServicioSalud {
   equipoDiagnostico       String[] // Corregido: Lista no opcional
   contactoEmergencia      String?
   serviciosOfrecidos      String[] // Corregido: Lista no opcional
+  ruta              String?        // Añadido: Opcional para campañas móviles
+  fechaInicio       DateTime?      // Añadido: Opcional para campañas móviles
+  fechaFin          DateTime?      // Añadido: Opcional para campañas móviles
   registrosDemanda        RegistroDemanda[]
   reportesComunidad       ReporteComunidad[]
   registrosConsulta       RegistroConsulta[]

@@ -2,51 +2,38 @@
 
 import { auth } from '@/auth.config';
 import prisma from '@/lib/prisma';
-import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { Prisma } from '@prisma/client';
 
-// Esquema Zod alineado con Prisma
-const schema = z.object({
-  tipo: z.enum(['PuestoSalud', 'Hospital', 'CampanaMovil'], { message: 'Tipo de servicio requerido' }),
-  nombre: z.string().min(1, 'Nombre requerido'),
-  nit: z.string().regex(/^\d{10}$/, 'NIT debe tener 10 dígitos'),
-  disponibilidad: z.enum(['Disponible', 'Parcial', 'NoDisponible', 'EnMantenimiento'], { message: 'Disponibilidad requerida' }),
-  codigoPrestador: z.string().min(1, 'Código prestador requerido'),
-  direccion: z.string().min(1, 'Dirección requerida'),
-  departamento: z.enum(['Cundinamarca', 'Boyacá'], { message: 'Departamento requerido' }),
-  ciudad: z.string().min(1, 'Ciudad requerida'),
-  caracter: z.enum(['Municipal', 'Departamental', 'Nacional'], { message: 'Carácter requerido' }),
-  descripcion: z.string().optional(),
-  estadoEmergencia: z.enum(['Normal', 'Emergencia']).optional(),
-  prioridad: z.enum(['Baja', 'Media', 'Alta']).optional(),
-  capacidadDiaria: z.number().int().min(0).optional(),
-  especialidades: z.array(z.string()).optional(),
-  personalMedico: z.number().int().min(0).optional(),
-  nivelComplejidad: z.enum(['Baja', 'Media', 'Alta']).optional(),
-  camasDisponibles: z.number().int().min(0).optional(),
-  camasTotales: z.number().int().min(0).optional(),
-  serviciosEspecializados: z.array(z.string()).optional(),
-  equipoDiagnostico: z.array(z.string()).optional(),
-  contactoEmergencia: z.string().optional(),
-  fechaInicio: z.coerce.date().optional(),
-  fechaFin: z.coerce.date().optional(),
-  ruta: z.string().optional(),
-  serviciosOfrecidos: z.array(z.string()).optional(),
-  capacidadEstimada: z.number().int().min(0).optional(),
-}).superRefine((data, ctx) => {
-  if (data.tipo === 'PuestoSalud' && data.capacidadDiaria === undefined) {
-    ctx.addIssue({ code: 'custom', path: ['capacidadDiaria'], message: 'Capacidad diaria requerida para Puesto de Salud' });
-  }
-  if (data.tipo === 'Hospital' && data.nivelComplejidad === undefined) {
-    ctx.addIssue({ code: 'custom', path: ['nivelComplejidad'], message: 'Nivel de complejidad requerido para Hospital' });
-  }
-  if (data.tipo === 'CampanaMovil' && (!data.fechaInicio || !data.fechaFin)) {
-    ctx.addIssue({ code: 'custom', path: ['fechaInicio'], message: 'Fechas requeridas para Campaña Móvil' });
-  }
-});
-
-
+// Interfaz para los datos recibidos del formulario
+interface ServicioFormData {
+  tipo: 'PuestoSalud' | 'Hospital' | 'CampanaMovil';
+  nombre: string;
+  nit: string;
+  disponibilidad: 'Disponible' | 'Parcial' | 'NoDisponible' | 'EnMantenimiento';
+  codigoPrestador: string;
+  direccion: string;
+  departamento: 'Cundinamarca' | 'Boyacá';
+  ciudad: string;
+  caracter: 'Municipal' | 'Departamental' | 'Nacional';
+  descripcion?: string;
+  estadoEmergencia?: 'Normal' | 'Emergencia';
+  prioridad?: 'Baja' | 'Media' | 'Alta';
+  capacidadDiaria?: number;
+  especialidades?: string[];
+  personalMedico?: number;
+  nivelComplejidad?: 'Baja' | 'Media' | 'Alta';
+  camasDisponibles?: number;
+  camasTotales?: number;
+  capacidadEstimada?: number;
+  serviciosEspecializados?: string[];
+  equipoDiagnostico?: string[];
+  contactoEmergencia?: string;
+  serviciosOfrecidos?: string[];
+  ruta?: string;
+  fechaInicio?: string;
+  fechaFin?: string;
+}
 
 export async function createAdminService(data: unknown) {
   const session = await auth();
@@ -55,30 +42,52 @@ export async function createAdminService(data: unknown) {
   }
 
   try {
-    const validatedData = schema.parse(data);
+    // Tipamos los datos con la interfaz
+    const validatedData = data as ServicioFormData;
 
     const cleanedData: Prisma.ServicioSaludCreateInput = {
-      ...validatedData,
-      especialidades: validatedData.especialidades ?? [],
-      serviciosEspecializados: validatedData.serviciosEspecializados ?? [],
-      equipoDiagnostico: validatedData.equipoDiagnostico ?? [],
-      serviciosOfrecidos: validatedData.serviciosOfrecidos ?? [],
+      tipo: validatedData.tipo,
+      nombre: validatedData.nombre,
+      nit: validatedData.nit,
+      disponibilidad: validatedData.disponibilidad,
+      codigoPrestador: validatedData.codigoPrestador,
+      direccion: validatedData.direccion,
+      departamento: validatedData.departamento,
+      ciudad: validatedData.ciudad,
+      caracter: validatedData.caracter,
+      descripcion: validatedData.descripcion,
+      estadoEmergencia: validatedData.estadoEmergencia,
+      prioridad: validatedData.prioridad,
+      capacidadDiaria: validatedData.capacidadDiaria,
+      especialidades: validatedData.especialidades || [],
+      personalMedico: validatedData.personalMedico,
+      nivelComplejidad: validatedData.nivelComplejidad,
+      camasDisponibles: validatedData.camasDisponibles,
+      camasTotales: validatedData.camasTotales,
+      capacidadEstimada: validatedData.capacidadEstimada,
+      serviciosEspecializados: validatedData.serviciosEspecializados || [],
+      equipoDiagnostico: validatedData.equipoDiagnostico || [],
+      contactoEmergencia: validatedData.contactoEmergencia,
+      serviciosOfrecidos: validatedData.serviciosOfrecidos || [],
+      ruta: validatedData.ruta,
+      fechaInicio: validatedData.fechaInicio ? new Date(validatedData.fechaInicio) : undefined,
+      fechaFin: validatedData.fechaFin ? new Date(validatedData.fechaFin) : undefined,
     };
 
     await prisma.servicioSalud.create({ data: cleanedData });
     revalidatePath('/dashboardAdmin');
 
     return { ok: true, message: 'Servicio creado exitosamente' };
-  } catch (error) {
+  } catch (error: unknown) {
     console.error('Error en createAdminService:', error);
 
-    if (error instanceof z.ZodError) {
-      return { ok: false, message: `Error de validación: ${error.errors[0].message}` };
-    }
     if (error instanceof Prisma.PrismaClientKnownRequestError && error.code === 'P2002') {
       return { ok: false, message: 'NIT o código prestador ya existe' };
     }
 
-    return { ok: false, message: 'Error al crear servicio: ' + (error instanceof Error ? error.message : 'Error desconocido') };
+    return {
+      ok: false,
+      message: 'Error al crear servicio: ' + (error instanceof Error ? error.message : 'Error desconocido'),
+    };
   }
 }

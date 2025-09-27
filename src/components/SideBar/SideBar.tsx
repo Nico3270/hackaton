@@ -34,7 +34,7 @@ type MenuItem = {
 
 const menuConfig: Record<"Administrador" | "ServicioSalud" | "Usuario" | "Invitado", MenuItem[]> = {
   Administrador: [
-    { name: "Dashboard", link: "/dashboardAdmin", icon: <DashboardIcon /> },
+    { name: "Dashboard", link: "/dashboardAdmin/crearServicio", icon: <DashboardIcon /> },
     { name: "Califica el servicio", link: "/calificaServicio", icon: <FaPenAlt /> },
     { name: "Reportes Comunidad", link: "/reporteUsuario", icon: <ReportIcon /> },
     { name: "Análisis demanda", link: "/prediccionDemanda", icon: <ReportIcon /> },
