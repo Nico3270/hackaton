@@ -42,7 +42,7 @@ export const TopMenu = () => {
           {/* Botones para pantallas grandes */}
           <div className="hidden md:flex items-center space-x-6">
             <Link
-              href=""
+              href="/caalificaServicio"
               className="
                 text-gray-700 text-lg font-medium 
                 hover:text-blue-600 
@@ -52,7 +52,7 @@ export const TopMenu = () => {
                 hover:shadow-sm
               "
             >
-              Sección 1
+              Califica el Servicio
             </Link>
             <Link
               href=""

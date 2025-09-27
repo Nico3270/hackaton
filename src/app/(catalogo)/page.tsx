@@ -2,10 +2,11 @@
 'use client';
 
 import React, { useState, useTransition } from 'react';
+import { Loader2 } from 'lucide-react'; // Cambiado a lucide-react
 import { getResumenServicios } from '@/visualizacion/actions/servicios';
-import { RiLoader2Fill } from 'react-icons/ri';
 import { Card, CardContent } from '@/ui/components/not-found/card';
 import ResumenDashboard from '@/visualizacion/componentes/ResumenDashboard';
+
 
 export default function InicioPage() {
   const [data, setData] = useState<Awaited<ReturnType<typeof getResumenServicios>> | null>(null);
@@ -20,6 +21,7 @@ export default function InicioPage() {
         setData(resumen);
       } catch (err) {
         setError('Error al cargar los datos del dashboard');
+        console.log(err);
       }
     });
   }, []);
@@ -28,7 +30,7 @@ export default function InicioPage() {
     <div className="container mx-auto mt-20 p-4 min-h-screen bg-gray-50">
       {isPending && (
         <div className="flex justify-center items-center h-64">
-          <RiLoader2Fill className="h-8 w-8 animate-spin text-blue-600" />
+          <Loader2 className="h-8 w-8 animate-spin text-blue-400" /> {/* Ajustado a color claro */}
         </div>
       )}
       {error && (
@@ -45,9 +47,17 @@ export default function InicioPage() {
           porDepartamento={data.porDepartamento}
           porTipo={data.porTipo}
           porNivel={data.porNivel}
+          porCiudad={data.porCiudad}
           topEspecialidades={data.topEspecialidades}
           capacidadPromedio={data.capacidadPromedio}
         />
+      )}
+      {!data && !isPending && !error && (
+        <Card className="border-gray-200 bg-gray-50">
+          <CardContent className="p-4">
+            <p className="text-gray-600">No hay datos disponibles para mostrar.</p>
+          </CardContent>
+        </Card>
       )}
     </div>
   );

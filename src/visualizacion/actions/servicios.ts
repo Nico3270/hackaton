@@ -11,9 +11,6 @@ interface FiltrosResumen {
 }
 
 export async function getResumenServicios(filtros: FiltrosResumen = {}) {
-  // Verificar sesión (opcional para admins, pero por ahora lo incluyo para seguridad)
-  
-
   try {
     // Conteo total de servicios
     const totalServicios = await prisma.servicioSalud.count({
@@ -37,7 +34,7 @@ export async function getResumenServicios(filtros: FiltrosResumen = {}) {
       by: ['departamento'],
       _count: { id: true },
       where: {
-        departamento: filtros.departamento, // Si filtro, solo ese
+        departamento: filtros.departamento,
       },
     });
 
@@ -51,7 +48,7 @@ export async function getResumenServicios(filtros: FiltrosResumen = {}) {
       },
     });
 
-    // Distribución por nivel de complejidad (para otro pie o bar)
+    // Distribución por nivel de complejidad (para pie chart)
     const porNivel = await prisma.servicioSalud.groupBy({
       by: ['nivelComplejidad'],
       _count: { id: true },
@@ -61,7 +58,19 @@ export async function getResumenServicios(filtros: FiltrosResumen = {}) {
       },
     });
 
-    // Top especialidades (conteo simple, para stacked bar)
+    // Distribución por ciudad (para pie chart, top 10)
+    const porCiudad = await prisma.servicioSalud.groupBy({
+      by: ['ciudad'],
+      _count: { id: true },
+      where: {
+        departamento: filtros.departamento,
+        ciudad: filtros.ciudad,
+      },
+      orderBy: { _count: { id: 'desc' } },
+      take: 10,
+    });
+
+    // Top especialidades (conteo simple, para bar chart)
     const especialidades = await prisma.servicioSalud.findMany({
       select: { especialidades: true },
       where: {
@@ -69,13 +78,14 @@ export async function getResumenServicios(filtros: FiltrosResumen = {}) {
         ciudad: filtros.ciudad,
       },
     });
-    const topEspecialidades = especialidades.flatMap(s => s.especialidades)
+    const topEspecialidades = especialidades
+      .flatMap(s => s.especialidades)
       .reduce((acc: Record<string, number>, esp) => {
         acc[esp] = (acc[esp] || 0) + 1;
         return acc;
       }, {});
 
-    // Datos para predicción básica (promedio capacidad mensual, ficticio por ahora basado en datos existentes)
+    // Promedio capacidad estimada
     const capacidadPromedio = await prisma.servicioSalud.aggregate({
       _avg: { capacidadEstimada: true },
       where: {
@@ -83,18 +93,6 @@ export async function getResumenServicios(filtros: FiltrosResumen = {}) {
         ciudad: filtros.ciudad,
       },
     });
-    // Distribución por ciudad (para pie chart, top 10)
-const porCiudad = await prisma.servicioSalud.groupBy({
-  by: ['ciudad'],
-  _count: { id: true },
-  where: {
-    departamento: filtros.departamento,
-    ciudad: filtros.ciudad,
-  },
-  orderBy: { _count: { id: 'desc' } },
-  take: 10, // Limita a top 10 para rendimiento
-});
-
 
     return {
       totalServicios,
@@ -102,12 +100,21 @@ const porCiudad = await prisma.servicioSalud.groupBy({
       porDepartamento,
       porTipo,
       porNivel,
-      topEspecialidades,
       porCiudad,
+      topEspecialidades,
       capacidadPromedio: capacidadPromedio._avg.capacidadEstimada || 0,
     };
   } catch (error) {
     console.error('Error en getResumenServicios:', error);
-    throw new Error('Error al obtener resumen de servicios');
+    return {
+      totalServicios: 0,
+      disponibles: 0,
+      porDepartamento: [],
+      porTipo: [],
+      porNivel: [],
+      porCiudad: [],
+      topEspecialidades: {},
+      capacidadPromedio: 0,
+    }; // Retorno por defecto para evitar fallos en el frontend
   }
 }
