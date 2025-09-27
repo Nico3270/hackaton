@@ -141,6 +141,7 @@ model RegistroDemanda {
   @@index([fecha])
   @@index([servicioId, fecha])
   @@index([factorEstacional])
+  @@index([servicioId, fecha, factorEstacional])
 }
 
 // Modelos de Usuarios
@@ -210,6 +211,7 @@ model ReporteComunidad {
   @@index([fecha])
   @@index([motivoVisita, aprobado]) // Actualizado
   @@index([motivoVisita]) // Actualizado
+  @@index([departamento, fecha, motivoVisita])
   @@index([servicioId])
   @@index([ratingSatisfaccion])
   @@index([servicioId, ratingSatisfaccion])

@@ -11,6 +11,8 @@
     "prisma:deploy": "npx prisma migrate deploy && prisma generate",
     "lint": "next lint",
     "seed": "ts-node src/seed/seed-database.ts",
+    "encuestas": "ts-node src/seed/seed-encuestas.ts",
+    "demanda": "ts-node src/seed/seed-registrosDemanda.ts",
     "seed2": "ts-node src/seed/seed-database copy.ts",
     "index": "ts-node src/seed/index.ts"
   },
@@ -20,6 +22,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@faker-js/faker": "^9.9.0",
     "@headlessui/react": "^2.2.0",
     "@hookform/resolvers": "^5.2.2",
     "@mui/icons-material": "^6.1.7",
@@ -74,6 +77,7 @@
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
+    "@types/faker": "^6.6.8",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-beautiful-dnd": "^13.1.8",

@@ -41,16 +41,33 @@ export default function InicioPage() {
       )}
 
       {/* 🚀 Botón premium centrado */}
-      <div className="flex justify-center mb-8">
-        <Link
-          href="/calificaServicio"
-          className="px-8 py-3 rounded-full bg-gradient-to-r from-gray-900 to-gray-800 
-                     text-white font-semibold shadow-md hover:shadow-xl transition-all 
-                     duration-300 hover:scale-105 active:scale-95"
-        >
-          Ver listado de Servicios de salud
-        </Link>
-      </div>
+      <div className="flex justify-center items-center mb-8 gap-4">
+  <Link
+    href="/calificaServicio"
+    className="px-8 py-3 rounded-full bg-gradient-to-r from-gray-900 to-gray-800 
+               text-white font-semibold shadow-md hover:shadow-xl transition-all 
+               duration-300 hover:scale-105 active:scale-95"
+  >
+    Ver listado de Servicios de salud
+  </Link>
+  <Link
+    href="/reporteUsuario"
+    className="px-8 py-3 rounded-full bg-gradient-to-r from-gray-900 to-gray-800 
+               text-white font-semibold shadow-md hover:shadow-xl transition-all 
+               duration-300 hover:scale-105 active:scale-95"
+  >
+    Ver reportes de usuario
+  </Link>
+  <Link
+    href="/prediccionDemanda"
+    className="px-8 py-3 rounded-full bg-gradient-to-r from-gray-900 to-gray-800 
+               text-white font-semibold shadow-md hover:shadow-xl transition-all 
+               duration-300 hover:scale-105 active:scale-95"
+  >
+    Predicción demanda
+  </Link>
+</div>
+
 
       {data && !isPending && (
         <ResumenDashboard
