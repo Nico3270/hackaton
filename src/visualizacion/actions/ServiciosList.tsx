@@ -1,6 +1,9 @@
+
 'use client';
 
 import Link from 'next/link';
+import { useState } from 'react';
+import { FiStar, FiInfo } from 'react-icons/fi';
 
 type Servicio = {
   id: string;
@@ -19,32 +22,34 @@ type DepartamentoServiciosProps = {
 
 function DepartamentoServicios({ titulo, servicios }: DepartamentoServiciosProps) {
   return (
-    <div className="bg-white p-6 rounded-2xl shadow-lg">
-      <h2 className="text-2xl font-semibold mb-4 text-gray-800">{titulo}</h2>
+    <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100">
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">{titulo}</h2>
       {servicios.length === 0 ? (
-        <p className="text-gray-500">No se encontraron servicios en {titulo}.</p>
+        <p className="text-gray-500 text-sm">No se encontraron servicios en {titulo}.</p>
       ) : (
-        <ul className="space-y-4">
+        <ul className="space-y-3">
           {servicios.map((servicio) => (
             <li
               key={servicio.id}
-              className="flex justify-between items-center p-4 bg-gray-100 rounded-xl"
+              className="flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:shadow-md transition-shadow"
             >
-              <span className="text-md font-medium text-gray-900">
+              <span className="text-sm font-medium text-gray-900 max-w-[60%] truncate">
                 {servicio.nombre}
               </span>
-              <div className="space-x-2">
+              <div className="flex items-center space-x-4">
                 <Link
                   href={`/calificaServicio/${servicio.id}`}
-                  className="px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition"
+                  className="flex flex-col items-center text-blue-600 hover:text-blue-700 transition"
                 >
-                  Calificar
+                  <FiStar className="text-lg" />
+                  <span className="text-[11px] font-medium">Calificar</span>
                 </Link>
                 <Link
                   href={`/ver/${servicio.id}`}
-                  className="px-4 py-2 bg-gray-500 text-white rounded-full hover:bg-gray-600 transition"
+                  className="flex flex-col items-center text-gray-600 hover:text-gray-800 transition"
                 >
-                  Ver Info
+                  <FiInfo className="text-lg" />
+                  <span className="text-[11px] font-medium">Ver Info</span>
                 </Link>
               </div>
             </li>
@@ -55,16 +60,34 @@ function DepartamentoServicios({ titulo, servicios }: DepartamentoServiciosProps
   );
 }
 
-export default function ServiciosList({ servicios }: ServiciosListProps) {
-  const cundinamarca = servicios.filter(
-    (s) => s.departamento === 'Cundinamarca'
+export default function ServiciosList({ servicios: initialServicios }: ServiciosListProps) {
+  const [searchTerm, setSearchTerm] = useState('');
+  const filteredServicios = initialServicios.filter((s) =>
+    s.nombre.toLowerCase().includes(searchTerm.toLowerCase())
   );
-  const boyaca = servicios.filter((s) => s.departamento === 'Boyacá');
+
+  const cundinamarca = filteredServicios.filter((s) => s.departamento === 'Cundinamarca');
+  const boyaca = filteredServicios.filter((s) => s.departamento === 'Boyacá');
 
   return (
-    <div className="w-full  grid grid-cols-1 md:grid-cols-2 gap-8">
-      <DepartamentoServicios titulo="Boyacá" servicios={boyaca} />
-      <DepartamentoServicios titulo="Cundinamarca" servicios={cundinamarca} />
-    </div>
+    <>
+      {/* Barra de búsqueda premium */}
+      <div className="w-full max-w-2xl mb-10">
+        <input
+          type="text"
+          placeholder="Buscar servicios por nombre..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full px-5 py-3 border border-gray-200 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder-gray-400 bg-white transition-all duration-200"
+        />
+      </div>
+
+      {/* Listado por departamentos */}
+      <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8">
+        <DepartamentoServicios titulo="Boyacá" servicios={boyaca} />
+        <DepartamentoServicios titulo="Cundinamarca" servicios={cundinamarca} />
+      </div>
+    </>
   );
 }
+

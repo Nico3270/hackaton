@@ -42,7 +42,7 @@ export const TopMenu = () => {
           {/* Botones para pantallas grandes */}
           <div className="hidden md:flex items-center space-x-6">
             <Link
-              href="/caalificaServicio"
+              href="/calificaServicio"
               className="
                 text-gray-700 text-lg font-medium 
                 hover:text-blue-600 
