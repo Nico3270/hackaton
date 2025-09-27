@@ -91,7 +91,6 @@ export async function getServicioDashboard(id: string): Promise<ServicioDashboar
       where: { id },
       include: {
         reportesComunidad: {
-          where: { aprobado: true },
           orderBy: { fecha: "desc" },
           take: 50,
           select: {

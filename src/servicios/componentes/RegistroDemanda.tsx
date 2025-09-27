@@ -1,3 +1,4 @@
+"use client"
 import { ServicioDashboardData } from "../actions/servicios";
 import { LineChart, BarChart, Line, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from "recharts";
 import { TrendingUp, BarChart2, Calendar } from "lucide-react";
